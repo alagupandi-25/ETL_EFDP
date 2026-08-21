@@ -1,0 +1,114 @@
+"table_name","ordinal_position","column_name","data_type","character_maximum_length"
+"stg_bkpf",1,"client_id","character varying",4
+"stg_bkpf",2,"company_code","character varying",10
+"stg_bkpf",3,"accounting_document_no","character varying",20
+"stg_bkpf",4,"fiscal_year","integer",NULL
+"stg_bkpf",5,"document_type","character varying",10
+"stg_bkpf",6,"document_date","date",NULL
+"stg_bkpf",7,"posting_date","date",NULL
+"stg_bkpf",8,"fiscal_period","integer",NULL
+"stg_bkpf",9,"entry_date","date",NULL
+"stg_bkpf",10,"entry_time","character varying",8
+"stg_bkpf",11,"created_by_user","character varying",50
+"stg_bkpf",12,"transaction_code","character varying",10
+"stg_bkpf",13,"document_currency","character varying",10
+"stg_bkpf",14,"reference_transaction_type","character varying",10
+"stg_bkpf",15,"reference_key","character varying",30
+"stg_bseg",1,"client_id","character varying",10
+"stg_bseg",2,"company_code","character varying",20
+"stg_bseg",3,"accounting_document_no","character varying",30
+"stg_bseg",4,"fiscal_year","integer",NULL
+"stg_bseg",5,"line_item_no","character varying",20
+"stg_bseg",6,"account_type","character varying",20
+"stg_bseg",7,"debit_credit_indicator","character varying",20
+"stg_bseg",8,"amount_local_currency","numeric",NULL
+"stg_bseg",9,"amount_document_currency","numeric",NULL
+"stg_bseg",10,"assignment_no","character varying",50
+"stg_bseg",11,"line_item_text","character varying",500
+"stg_bseg",12,"payment_terms","character varying",30
+"stg_bseg",13,"cost_center_id","character varying",30
+"stg_bseg",14,"gl_account_no","character varying",30
+"stg_bseg",15,"customer_id","character varying",30
+"stg_bseg",16,"vendor_id","character varying",30
+"stg_bseg",17,"payement_baseline_date","character varying",20
+"stg_bseg",18,"tax_code","character varying",30
+"stg_bseg",19,"clearing_document_number","character varying",30
+"stg_bseg",20,"clearing_date","character varying",20
+"stg_bseg",21,"special_gl_indicator","character varying",30
+"stg_csks",1,"client_id","character varying",10
+"stg_csks",2,"controlling_area","character varying",20
+"stg_csks",3,"cost_center_id","character varying",30
+"stg_csks",4,"valid_to_date","date",NULL
+"stg_csks",5,"valid_from_date","date",NULL
+"stg_csks",6,"company_code","character varying",20
+"stg_csks",7,"cost_center_category","character varying",30
+"stg_csks",8,"responsible_person","character varying",100
+"stg_csks",9,"currency_code","character varying",20
+"stg_cskt",1,"client_id","character varying",10
+"stg_cskt",2,"language_code","character varying",20
+"stg_cskt",3,"controlling_area","character varying",20
+"stg_cskt",4,"cost_center_id","character varying",30
+"stg_cskt",5,"valid_to_date","date",NULL
+"stg_cskt",6,"cost_center_name","character varying",200
+"stg_cskt",7,"cost_center_description","character varying",500
+"stg_kna1",1,"client_id","bigint",NULL
+"stg_kna1",2,"customer_id","character varying",20
+"stg_kna1",3,"country_code","character varying",10
+"stg_kna1",4,"customer_name","character varying",100
+"stg_kna1",5,"customer_name_2","character varying",100
+"stg_kna1",6,"city","character varying",100
+"stg_kna1",7,"postal_code","character varying",20
+"stg_kna1",8,"regional_code","character varying",20
+"stg_kna1",9,"street_address","character varying",150
+"stg_kna1",10,"created_date","timestamp without time zone",NULL
+"stg_kna1",11,"customer_account_group","character varying",20
+"stg_kna1",12,"language_code","character varying",10
+"stg_lfa1",1,"client_id","bigint",NULL
+"stg_lfa1",2,"vendor_id","character varying",20
+"stg_lfa1",3,"country_code","character varying",10
+"stg_lfa1",4,"vendor_name","character varying",100
+"stg_lfa1",5,"vendor_name2","character varying",100
+"stg_lfa1",6,"city","character varying",100
+"stg_lfa1",7,"postal_code","character varying",20
+"stg_lfa1",8,"region_code","character varying",20
+"stg_lfa1",9,"street_address","character varying",150
+"stg_lfa1",10,"created_date","timestamp without time zone",NULL
+"stg_lfa1",11,"vendor_account_group","character varying",20
+"stg_lfa1",12,"language_code","character varying",10
+"stg_ska1",1,"client_id","character varying",10
+"stg_ska1",2,"gl_account_no","character varying",30
+"stg_ska1",3,"created_by_user","character varying",100
+"stg_ska1",4,"created_date","character varying",20
+"stg_ska1",5,"record_timestamp","character varying",50
+"stg_ska1",6,"is_deleted","boolean",NULL
+"stg_ska1",7,"gl_account_group","character varying",50
+"stg_ska1",8,"operation_flag","character varying",20
+"stg_ska1",9,"balance_sheet_indicator","character varying",20
+"stg_ska1",10,"chart_of_accounts","character varying",30
+"stg_ska1",11,"financial_statement_type","character varying",100
+"stg_skat",1,"client_id","character varying",20
+"stg_skat",2,"language_code","character varying",20
+"stg_skat",3,"chart_of_accounts","character varying",30
+"stg_skat",4,"gl_account_number","character varying",30
+"stg_skat",5,"gl_account_short_name","character varying",100
+"stg_skat",6,"gl_account_description","character varying",255
+"stg_skat",7,"search_term","character varying",100
+"stg_skat",8,"operation_flag","character varying",20
+"stg_skat",9,"is_deleted","boolean",NULL
+"stg_skat",10,"record_timestamp","character varying",50
+"stg_t001",1,"client_id","character varying",10
+"stg_t001",2,"company_code","character varying",20
+"stg_t001",3,"company_name","character varying",500
+"stg_t001",4,"city","character varying",200
+"stg_t001",5,"country_code","character varying",20
+"stg_t001",6,"company_currency","character varying",20
+"stg_t001",7,"language_code","character varying",20
+"stg_t001",8,"chart_of_accounts","character varying",30
+"stg_t001",9,"fiscal_year_variant","character varying",20
+"stg_t002",1,"sap_language_code","character varying",20
+"stg_t002",2,"language_specialization","character varying",200
+"stg_t002",3,"language_hierarchy_level","integer",NULL
+"stg_t002",4,"iso_language_code","character varying",20
+"stg_t002",5,"operation_flag","character varying",20
+"stg_t002",6,"is_deleted","character varying",10
+"stg_t002",7,"record_timestamp","character varying",50

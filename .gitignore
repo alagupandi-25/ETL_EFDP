@@ -1,0 +1,46 @@
+# Windows
+Thumbs.db
+Desktop.ini
+
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+.venv/
+venv/
+env/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# IDEs
+.vscode/
+.idea/
+
+# Pentaho temporary files
+*.log
+*.tmp
+*.bak
+*.swp
+
+# Large compressed backup files
+*.zip
+*.rar
+*.7z
+
+# Environment and secrets
+.env
+.env.*
+*.key
+*.pem
+
+# Database local files
+*.sqlite
+*.db
+# Large SAP source files - stored locally
+datasets/SAP/bseg.csv
+datasets/SAP/skat.csv
+datasets/SAP/skat.xml
+
+# Power BI temporary files
+*.tmp
