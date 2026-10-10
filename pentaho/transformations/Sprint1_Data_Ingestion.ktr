@@ -670,7 +670,7 @@
       <method>none</method>
       <schema_name/>
     </partitioning>
-    <filename>D:/Data Engineering/Pentaho/Sem1_Project/SAP/bkpf.csv</filename>
+    <filename>D:\Data Engineering\Pentaho\EFDP\datasets\SAP\bkpf.csv</filename>
     <filename_field/>
     <rownum_field/>
     <include_filename>N</include_filename>
@@ -2086,7 +2086,7 @@
       <method>none</method>
       <schema_name/>
     </partitioning>
-    <filename>D:/Data Engineering/Pentaho/Sem1_Project/SAP/bseg.csv</filename>
+    <filename>D:\Data Engineering\Pentaho\EFDP\datasets\SAP\bseg.csv</filename>
     <filename_field/>
     <rownum_field/>
     <include_filename>N</include_filename>
@@ -6043,7 +6043,7 @@
       <method>none</method>
       <schema_name/>
     </partitioning>
-    <filename>D:/Data Engineering/Pentaho/Sem1_Project/SAP/csks.csv</filename>
+    <filename>D:\Data Engineering\Pentaho\EFDP\datasets\SAP\csks.csv</filename>
     <filename_field/>
     <rownum_field/>
     <include_filename>N</include_filename>
@@ -6942,7 +6942,7 @@
       <method>none</method>
       <schema_name/>
     </partitioning>
-    <filename>D:/Data Engineering/Pentaho/Sem1_Project/SAP/cskt.csv</filename>
+    <filename>D:\Data Engineering\Pentaho\EFDP\datasets\SAP\cskt.csv</filename>
     <filename_field/>
     <rownum_field/>
     <include_filename>N</include_filename>
@@ -7104,7 +7104,7 @@
       <method>none</method>
       <schema_name/>
     </partitioning>
-    <filename>D:/Data Engineering/Pentaho/Sem1_Project/SAP/kna1.csv</filename>
+    <filename>D:\Data Engineering\Pentaho\EFDP\datasets\SAP\kna1.csv</filename>
     <filename_field/>
     <rownum_field/>
     <include_filename>N</include_filename>
@@ -9257,7 +9257,7 @@
       <method>none</method>
       <schema_name/>
     </partitioning>
-    <filename>D:/Data Engineering/Pentaho/Sem1_Project/SAP/lfa1.csv</filename>
+    <filename>D:\Data Engineering\Pentaho\EFDP\datasets\SAP\lfa1.csv</filename>
     <filename_field/>
     <rownum_field/>
     <include_filename>N</include_filename>
@@ -10893,7 +10893,7 @@
       <method>none</method>
       <schema_name/>
     </partitioning>
-    <filename>D:/Data Engineering/Pentaho/Sem1_Project/SAP/t001.csv</filename>
+    <filename>D:\Data Engineering\Pentaho\EFDP\datasets\SAP\t001.csv</filename>
     <filename_field/>
     <rownum_field/>
     <include_filename>N</include_filename>
@@ -11904,7 +11904,7 @@
     <includeNulls>N</includeNulls>
     <rownum_field/>
     <file>
-      <name>D:/Data Engineering/Pentaho/Sem1_Project/SAP/ska1_0.js</name>
+      <name>D:\Data Engineering\Pentaho\EFDP\datasets\SAP\ska1_0.js</name>
       <filemask/>
       <exclude_filemask/>
       <file_required>N</file_required>
@@ -12078,6 +12078,160 @@
     <GUI>
       <xloc>96</xloc>
       <yloc>576</yloc>
+      <draw>Y</draw>
+    </GUI>
+  </step>
+  <step>
+    <name>Microsoft Excel input</name>
+    <type>ExcelInput</type>
+    <description/>
+    <distribute>Y</distribute>
+    <custom_distribution/>
+    <copies>1</copies>
+    <partitioning>
+      <method>none</method>
+      <schema_name/>
+    </partitioning>
+    <header>Y</header>
+    <noempty>Y</noempty>
+    <stoponempty>N</stoponempty>
+    <filefield/>
+    <sheetfield/>
+    <sheetrownumfield/>
+    <rownumfield/>
+    <sheetfield/>
+    <filefield/>
+    <limit>0</limit>
+    <encoding/>
+    <add_to_result_filenames>Y</add_to_result_filenames>
+    <accept_filenames>N</accept_filenames>
+    <accept_field/>
+    <accept_stepname/>
+    <file>
+      <name>D:\Data Engineering\Pentaho\EFDP\datasets\SAP\t002.xls</name>
+      <filemask/>
+      <exclude_filemask/>
+      <file_required>N</file_required>
+      <include_subfolders>N</include_subfolders>
+    </file>
+    <fields>
+      <field>
+        <name>spras</name>
+        <type>String</type>
+        <length>-1</length>
+        <precision>-1</precision>
+        <trim_type>none</trim_type>
+        <repeat>N</repeat>
+        <format/>
+        <currency/>
+        <decimal/>
+        <group/>
+      </field>
+      <field>
+        <name>laspez</name>
+        <type>String</type>
+        <length>-1</length>
+        <precision>-1</precision>
+        <trim_type>none</trim_type>
+        <repeat>N</repeat>
+        <format/>
+        <currency/>
+        <decimal/>
+        <group/>
+      </field>
+      <field>
+        <name>lahq</name>
+        <type>Number</type>
+        <length>-1</length>
+        <precision>-1</precision>
+        <trim_type>none</trim_type>
+        <repeat>N</repeat>
+        <format/>
+        <currency/>
+        <decimal/>
+        <group/>
+      </field>
+      <field>
+        <name>laiso</name>
+        <type>String</type>
+        <length>-1</length>
+        <precision>-1</precision>
+        <trim_type>none</trim_type>
+        <repeat>N</repeat>
+        <format/>
+        <currency/>
+        <decimal/>
+        <group/>
+      </field>
+      <field>
+        <name>operation_flag</name>
+        <type>String</type>
+        <length>-1</length>
+        <precision>-1</precision>
+        <trim_type>none</trim_type>
+        <repeat>N</repeat>
+        <format/>
+        <currency/>
+        <decimal/>
+        <group/>
+      </field>
+      <field>
+        <name>is_deleted</name>
+        <type>String</type>
+        <length>-1</length>
+        <precision>-1</precision>
+        <trim_type>none</trim_type>
+        <repeat>N</repeat>
+        <format/>
+        <currency/>
+        <decimal/>
+        <group/>
+      </field>
+      <field>
+        <name>recordstamp</name>
+        <type>String</type>
+        <length>-1</length>
+        <precision>-1</precision>
+        <trim_type>none</trim_type>
+        <repeat>N</repeat>
+        <format/>
+        <currency/>
+        <decimal/>
+        <group/>
+      </field>
+    </fields>
+    <sheets>
+    </sheets>
+    <strict_types>N</strict_types>
+    <error_ignored>N</error_ignored>
+    <error_line_skipped>N</error_line_skipped>
+    <bad_line_files_destination_directory/>
+    <bad_line_files_extension>warning</bad_line_files_extension>
+    <error_line_files_destination_directory/>
+    <error_line_files_extension>error</error_line_files_extension>
+    <line_number_files_destination_directory/>
+    <line_number_files_extension>line</line_number_files_extension>
+    <shortFileFieldName/>
+    <pathFieldName/>
+    <hiddenFieldName/>
+    <lastModificationTimeFieldName/>
+    <uriNameFieldName/>
+    <rootUriNameFieldName/>
+    <extensionFieldName/>
+    <sizeFieldName/>
+    <spreadsheet_type>JXL</spreadsheet_type>
+    <password>Encrypted </password>
+    <attributes/>
+    <cluster_schema/>
+    <remotesteps>
+      <input>
+      </input>
+      <output>
+      </output>
+    </remotesteps>
+    <GUI>
+      <xloc>704</xloc>
+      <yloc>368</yloc>
       <draw>Y</draw>
     </GUI>
   </step>
@@ -15939,6 +16093,204 @@
     </GUI>
   </step>
   <step>
+    <name>Select values 15</name>
+    <type>SelectValues</type>
+    <description/>
+    <distribute>Y</distribute>
+    <custom_distribution/>
+    <copies>1</copies>
+    <partitioning>
+      <method>none</method>
+      <schema_name/>
+    </partitioning>
+    <fields>
+      <select_unspecified>N</select_unspecified>
+      <meta>
+        <name>client_id</name>
+        <rename>client_id</rename>
+        <type>None</type>
+        <length>-2</length>
+        <precision>-2</precision>
+        <conversion_mask/>
+        <date_format_lenient>false</date_format_lenient>
+        <date_format_locale/>
+        <date_format_timezone/>
+        <lenient_string_to_number>false</lenient_string_to_number>
+        <encoding/>
+        <decimal_symbol/>
+        <grouping_symbol/>
+        <currency_symbol/>
+        <storage_type/>
+      </meta>
+      <meta>
+        <name>language_code</name>
+        <rename>language_code</rename>
+        <type>None</type>
+        <length>-2</length>
+        <precision>-2</precision>
+        <conversion_mask/>
+        <date_format_lenient>false</date_format_lenient>
+        <date_format_locale/>
+        <date_format_timezone/>
+        <lenient_string_to_number>false</lenient_string_to_number>
+        <encoding/>
+        <decimal_symbol/>
+        <grouping_symbol/>
+        <currency_symbol/>
+        <storage_type/>
+      </meta>
+      <meta>
+        <name>chart_of_accounts</name>
+        <rename>chart_of_accounts</rename>
+        <type>None</type>
+        <length>-2</length>
+        <precision>-2</precision>
+        <conversion_mask/>
+        <date_format_lenient>false</date_format_lenient>
+        <date_format_locale/>
+        <date_format_timezone/>
+        <lenient_string_to_number>false</lenient_string_to_number>
+        <encoding/>
+        <decimal_symbol/>
+        <grouping_symbol/>
+        <currency_symbol/>
+        <storage_type/>
+      </meta>
+      <meta>
+        <name>gl_account_number</name>
+        <rename>gl_account_number</rename>
+        <type>None</type>
+        <length>-2</length>
+        <precision>-2</precision>
+        <conversion_mask/>
+        <date_format_lenient>false</date_format_lenient>
+        <date_format_locale/>
+        <date_format_timezone/>
+        <lenient_string_to_number>false</lenient_string_to_number>
+        <encoding/>
+        <decimal_symbol/>
+        <grouping_symbol/>
+        <currency_symbol/>
+        <storage_type/>
+      </meta>
+      <meta>
+        <name>gl_account_short_name</name>
+        <rename>gl_account_short_name</rename>
+        <type>None</type>
+        <length>-2</length>
+        <precision>-2</precision>
+        <conversion_mask/>
+        <date_format_lenient>false</date_format_lenient>
+        <date_format_locale/>
+        <date_format_timezone/>
+        <lenient_string_to_number>false</lenient_string_to_number>
+        <encoding/>
+        <decimal_symbol/>
+        <grouping_symbol/>
+        <currency_symbol/>
+        <storage_type/>
+      </meta>
+      <meta>
+        <name>gl_account_description</name>
+        <rename>gl_account_description</rename>
+        <type>None</type>
+        <length>-2</length>
+        <precision>-2</precision>
+        <conversion_mask/>
+        <date_format_lenient>false</date_format_lenient>
+        <date_format_locale/>
+        <date_format_timezone/>
+        <lenient_string_to_number>false</lenient_string_to_number>
+        <encoding/>
+        <decimal_symbol/>
+        <grouping_symbol/>
+        <currency_symbol/>
+        <storage_type/>
+      </meta>
+      <meta>
+        <name>search_term</name>
+        <rename>search_term</rename>
+        <type>None</type>
+        <length>-2</length>
+        <precision>-2</precision>
+        <conversion_mask/>
+        <date_format_lenient>false</date_format_lenient>
+        <date_format_locale/>
+        <date_format_timezone/>
+        <lenient_string_to_number>false</lenient_string_to_number>
+        <encoding/>
+        <decimal_symbol/>
+        <grouping_symbol/>
+        <currency_symbol/>
+        <storage_type/>
+      </meta>
+      <meta>
+        <name>operation_flag</name>
+        <rename>operation_flag</rename>
+        <type>None</type>
+        <length>-2</length>
+        <precision>-2</precision>
+        <conversion_mask/>
+        <date_format_lenient>false</date_format_lenient>
+        <date_format_locale/>
+        <date_format_timezone/>
+        <lenient_string_to_number>false</lenient_string_to_number>
+        <encoding/>
+        <decimal_symbol/>
+        <grouping_symbol/>
+        <currency_symbol/>
+        <storage_type/>
+      </meta>
+      <meta>
+        <name>is_deleted</name>
+        <rename>is_deleted</rename>
+        <type>Boolean</type>
+        <length>-2</length>
+        <precision>-2</precision>
+        <conversion_mask/>
+        <date_format_lenient>false</date_format_lenient>
+        <date_format_locale/>
+        <date_format_timezone/>
+        <lenient_string_to_number>false</lenient_string_to_number>
+        <encoding/>
+        <decimal_symbol/>
+        <grouping_symbol/>
+        <currency_symbol/>
+        <storage_type/>
+      </meta>
+      <meta>
+        <name>record_timestamp</name>
+        <rename>record_timestamp</rename>
+        <type>None</type>
+        <length>-2</length>
+        <precision>-2</precision>
+        <conversion_mask/>
+        <date_format_lenient>false</date_format_lenient>
+        <date_format_locale/>
+        <date_format_timezone/>
+        <lenient_string_to_number>false</lenient_string_to_number>
+        <encoding/>
+        <decimal_symbol/>
+        <grouping_symbol/>
+        <currency_symbol/>
+        <storage_type/>
+      </meta>
+    </fields>
+    <attributes/>
+    <cluster_schema/>
+    <remotesteps>
+      <input>
+      </input>
+      <output>
+      </output>
+    </remotesteps>
+    <GUI>
+      <xloc>1008</xloc>
+      <yloc>464</yloc>
+      <draw>Y</draw>
+    </GUI>
+  </step>
+  <step>
     <name>Select values 16</name>
     <type>SelectValues</type>
     <description/>
@@ -16165,6 +16517,60 @@
     <GUI>
       <xloc>240</xloc>
       <yloc>576</yloc>
+      <draw>Y</draw>
+    </GUI>
+  </step>
+  <step>
+    <name>Select values 19</name>
+    <type>SelectValues</type>
+    <description/>
+    <distribute>Y</distribute>
+    <custom_distribution/>
+    <copies>1</copies>
+    <partitioning>
+      <method>none</method>
+      <schema_name/>
+    </partitioning>
+    <fields>
+      <field>
+        <name>spras</name>
+        <rename>sap_language_code</rename>
+      </field>
+      <field>
+        <name>laspez</name>
+        <rename>language_specialization</rename>
+      </field>
+      <field>
+        <name>lahq</name>
+        <rename>language_hierarchy_level</rename>
+      </field>
+      <field>
+        <name>laiso</name>
+        <rename>iso_language_code</rename>
+      </field>
+      <field>
+        <name>operation_flag</name>
+      </field>
+      <field>
+        <name>is_deleted</name>
+      </field>
+      <field>
+        <name>recordstamp</name>
+        <rename>record_timestamp</rename>
+      </field>
+      <select_unspecified>N</select_unspecified>
+    </fields>
+    <attributes/>
+    <cluster_schema/>
+    <remotesteps>
+      <input>
+      </input>
+      <output>
+      </output>
+    </remotesteps>
+    <GUI>
+      <xloc>864</xloc>
+      <yloc>368</yloc>
       <draw>Y</draw>
     </GUI>
   </step>
@@ -16902,6 +17308,153 @@
     </GUI>
   </step>
   <step>
+    <name>Select values 20</name>
+    <type>SelectValues</type>
+    <description/>
+    <distribute>Y</distribute>
+    <custom_distribution/>
+    <copies>1</copies>
+    <partitioning>
+      <method>none</method>
+      <schema_name/>
+    </partitioning>
+    <fields>
+      <select_unspecified>N</select_unspecified>
+      <meta>
+        <name>sap_language_code</name>
+        <rename>sap_language_code</rename>
+        <type>String</type>
+        <length>-2</length>
+        <precision>-2</precision>
+        <conversion_mask/>
+        <date_format_lenient>false</date_format_lenient>
+        <date_format_locale/>
+        <date_format_timezone/>
+        <lenient_string_to_number>false</lenient_string_to_number>
+        <encoding/>
+        <decimal_symbol/>
+        <grouping_symbol/>
+        <currency_symbol/>
+        <storage_type/>
+      </meta>
+      <meta>
+        <name>language_specialization</name>
+        <rename>language_specialization</rename>
+        <type>String</type>
+        <length>-2</length>
+        <precision>-2</precision>
+        <conversion_mask/>
+        <date_format_lenient>false</date_format_lenient>
+        <date_format_locale/>
+        <date_format_timezone/>
+        <lenient_string_to_number>false</lenient_string_to_number>
+        <encoding/>
+        <decimal_symbol/>
+        <grouping_symbol/>
+        <currency_symbol/>
+        <storage_type/>
+      </meta>
+      <meta>
+        <name>language_hierarchy_level</name>
+        <rename>language_hierarchy_level</rename>
+        <type>Integer</type>
+        <length>-2</length>
+        <precision>-2</precision>
+        <conversion_mask/>
+        <date_format_lenient>false</date_format_lenient>
+        <date_format_locale/>
+        <date_format_timezone/>
+        <lenient_string_to_number>false</lenient_string_to_number>
+        <encoding/>
+        <decimal_symbol/>
+        <grouping_symbol/>
+        <currency_symbol/>
+        <storage_type/>
+      </meta>
+      <meta>
+        <name>iso_language_code</name>
+        <rename>iso_language_code</rename>
+        <type>String</type>
+        <length>-2</length>
+        <precision>-2</precision>
+        <conversion_mask/>
+        <date_format_lenient>false</date_format_lenient>
+        <date_format_locale/>
+        <date_format_timezone/>
+        <lenient_string_to_number>false</lenient_string_to_number>
+        <encoding/>
+        <decimal_symbol/>
+        <grouping_symbol/>
+        <currency_symbol/>
+        <storage_type/>
+      </meta>
+      <meta>
+        <name>operation_flag</name>
+        <rename>operation_flag</rename>
+        <type>String</type>
+        <length>-2</length>
+        <precision>-2</precision>
+        <conversion_mask/>
+        <date_format_lenient>false</date_format_lenient>
+        <date_format_locale/>
+        <date_format_timezone/>
+        <lenient_string_to_number>false</lenient_string_to_number>
+        <encoding/>
+        <decimal_symbol/>
+        <grouping_symbol/>
+        <currency_symbol/>
+        <storage_type/>
+      </meta>
+      <meta>
+        <name>is_deleted</name>
+        <rename>is_deleted</rename>
+        <type>String</type>
+        <length>-2</length>
+        <precision>-2</precision>
+        <conversion_mask/>
+        <date_format_lenient>false</date_format_lenient>
+        <date_format_locale/>
+        <date_format_timezone/>
+        <lenient_string_to_number>false</lenient_string_to_number>
+        <encoding/>
+        <decimal_symbol/>
+        <grouping_symbol/>
+        <currency_symbol/>
+        <storage_type/>
+      </meta>
+      <meta>
+        <name>record_timestamp</name>
+        <rename>record_timestamp</rename>
+        <type>String</type>
+        <length>-2</length>
+        <precision>-2</precision>
+        <conversion_mask/>
+        <date_format_lenient>false</date_format_lenient>
+        <date_format_locale/>
+        <date_format_timezone/>
+        <lenient_string_to_number>false</lenient_string_to_number>
+        <encoding/>
+        <decimal_symbol/>
+        <grouping_symbol/>
+        <currency_symbol/>
+        <storage_type/>
+      </meta>
+    </fields>
+    <attributes/>
+    <cluster_schema/>
+    <remotesteps>
+      <input>
+      </input>
+      <output>
+      </output>
+    </remotesteps>
+    <GUI>
+      <xloc>1008</xloc>
+      <yloc>368</yloc>
+      <draw>Y</draw>
+    </GUI>
+  </step>
+  <step>
     <name>Select values 3</name>
     <type>SelectValues</type>
     <description/>
@@ -16935,23 +17488,18 @@
       </field>
       <field>
         <name>buzid</name>
-        <rename/>
       </field>
       <field>
         <name>augdt</name>
-        <rename/>
       </field>
       <field>
         <name>augcp</name>
-        <rename/>
       </field>
       <field>
         <name>augbl</name>
-        <rename/>
       </field>
       <field>
         <name>bschl</name>
-        <rename/>
       </field>
       <field>
         <name>koart</name>
@@ -16959,15 +17507,12 @@
       </field>
       <field>
         <name>umskz</name>
-        <rename/>
       </field>
       <field>
         <name>umsks</name>
-        <rename/>
       </field>
       <field>
         <name>zumsk</name>
-        <rename/>
       </field>
       <field>
         <name>shkzg</name>
@@ -16975,19 +17520,15 @@
       </field>
       <field>
         <name>gsber</name>
-        <rename/>
       </field>
       <field>
         <name>pargb</name>
-        <rename/>
       </field>
       <field>
         <name>mwskz</name>
-        <rename/>
       </field>
       <field>
         <name>qsskz</name>
-        <rename/>
       </field>
       <field>
         <name>dmbtr</name>
@@ -16999,91 +17540,69 @@
       </field>
       <field>
         <name>kzbtr</name>
-        <rename/>
       </field>
       <field>
         <name>pswbt</name>
-        <rename/>
       </field>
       <field>
         <name>pswsl</name>
-        <rename/>
       </field>
       <field>
         <name>txbhw</name>
-        <rename/>
       </field>
       <field>
         <name>txbfw</name>
-        <rename/>
       </field>
       <field>
         <name>mwsts</name>
-        <rename/>
       </field>
       <field>
         <name>wmwst</name>
-        <rename/>
       </field>
       <field>
         <name>hwbas</name>
-        <rename/>
       </field>
       <field>
         <name>fwbas</name>
-        <rename/>
       </field>
       <field>
         <name>hwzuz</name>
-        <rename/>
       </field>
       <field>
         <name>fwzuz</name>
-        <rename/>
       </field>
       <field>
         <name>shzuz</name>
-        <rename/>
       </field>
       <field>
         <name>stekz</name>
-        <rename/>
       </field>
       <field>
         <name>mwart</name>
-        <rename/>
       </field>
       <field>
         <name>txgrp</name>
-        <rename/>
       </field>
       <field>
         <name>ktosl</name>
-        <rename/>
       </field>
       <field>
         <name>qsshb</name>
-        <rename/>
       </field>
       <field>
         <name>kursr</name>
-        <rename/>
       </field>
       <field>
         <name>gbetr</name>
-        <rename/>
       </field>
       <field>
         <name>bdiff</name>
-        <rename/>
       </field>
       <field>
         <name>bdif2</name>
-        <rename/>
       </field>
       <field>
         <name>valut</name>
-        <rename/>
       </field>
       <field>
         <name>zuonr</name>
@@ -17099,43 +17618,33 @@
       </field>
       <field>
         <name>vbund</name>
-        <rename/>
       </field>
       <field>
         <name>bewar</name>
-        <rename/>
       </field>
       <field>
         <name>altkt</name>
-        <rename/>
       </field>
       <field>
         <name>vorgn</name>
-        <rename/>
       </field>
       <field>
         <name>fdlev</name>
-        <rename/>
       </field>
       <field>
         <name>fdgrp</name>
-        <rename/>
       </field>
       <field>
         <name>fdwbt</name>
-        <rename/>
       </field>
       <field>
         <name>fdtag</name>
-        <rename/>
       </field>
       <field>
         <name>fkont</name>
-        <rename/>
       </field>
       <field>
         <name>kokrs</name>
-        <rename/>
       </field>
       <field>
         <name>kostl</name>
@@ -17143,123 +17652,93 @@
       </field>
       <field>
         <name>projn</name>
-        <rename/>
       </field>
       <field>
         <name>aufnr</name>
-        <rename/>
       </field>
       <field>
         <name>vbeln</name>
-        <rename/>
       </field>
       <field>
         <name>vbel2</name>
-        <rename/>
       </field>
       <field>
         <name>posn2</name>
-        <rename/>
       </field>
       <field>
         <name>eten2</name>
-        <rename/>
       </field>
       <field>
         <name>anln1</name>
-        <rename/>
       </field>
       <field>
         <name>anln2</name>
-        <rename/>
       </field>
       <field>
         <name>anbwa</name>
-        <rename/>
       </field>
       <field>
         <name>bzdat</name>
-        <rename/>
       </field>
       <field>
         <name>pernr</name>
-        <rename/>
       </field>
       <field>
         <name>xumsw</name>
-        <rename/>
       </field>
       <field>
         <name>xhres</name>
-        <rename/>
       </field>
       <field>
         <name>xkres</name>
-        <rename/>
       </field>
       <field>
         <name>xopvw</name>
-        <rename/>
       </field>
       <field>
         <name>xcpdd</name>
-        <rename/>
       </field>
       <field>
         <name>xskst</name>
-        <rename/>
       </field>
       <field>
         <name>xsauf</name>
-        <rename/>
       </field>
       <field>
         <name>xspro</name>
-        <rename/>
       </field>
       <field>
         <name>xserg</name>
-        <rename/>
       </field>
       <field>
         <name>xfakt</name>
-        <rename/>
       </field>
       <field>
         <name>xuman</name>
-        <rename/>
       </field>
       <field>
         <name>xanet</name>
-        <rename/>
       </field>
       <field>
         <name>xskrl</name>
-        <rename/>
       </field>
       <field>
         <name>xinve</name>
-        <rename/>
       </field>
       <field>
         <name>xpanz</name>
-        <rename/>
       </field>
       <field>
         <name>xauto</name>
-        <rename/>
       </field>
       <field>
         <name>xncop</name>
-        <rename/>
       </field>
       <field>
         <name>xzahl</name>
-        <rename/>
       </field>
       <field>
         <name>saknr</name>
-        <rename/>
       </field>
       <field>
         <name>hkont</name>
@@ -17275,19 +17754,15 @@
       </field>
       <field>
         <name>filkd</name>
-        <rename/>
       </field>
       <field>
         <name>xbilk</name>
-        <rename/>
       </field>
       <field>
         <name>gvtyp</name>
-        <rename/>
       </field>
       <field>
         <name>hzuon</name>
-        <rename/>
       </field>
       <field>
         <name>zfbdt</name>
@@ -17295,87 +17770,66 @@
       </field>
       <field>
         <name>zterm</name>
-        <rename/>
       </field>
       <field>
         <name>zbd1t</name>
-        <rename/>
       </field>
       <field>
         <name>zbd2t</name>
-        <rename/>
       </field>
       <field>
         <name>zbd3t</name>
-        <rename/>
       </field>
       <field>
         <name>zbd1p</name>
-        <rename/>
       </field>
       <field>
         <name>zbd2p</name>
-        <rename/>
       </field>
       <field>
         <name>skfbt</name>
-        <rename/>
       </field>
       <field>
         <name>sknto</name>
-        <rename/>
       </field>
       <field>
         <name>wskto</name>
-        <rename/>
       </field>
       <field>
         <name>zlsch</name>
-        <rename/>
       </field>
       <field>
         <name>zlspr</name>
-        <rename/>
       </field>
       <field>
         <name>zbfix</name>
-        <rename/>
       </field>
       <field>
         <name>hbkid</name>
-        <rename/>
       </field>
       <field>
         <name>bvtyp</name>
-        <rename/>
       </field>
       <field>
         <name>nebtr</name>
-        <rename/>
       </field>
       <field>
         <name>mwsk1</name>
-        <rename/>
       </field>
       <field>
         <name>dmbt1</name>
-        <rename/>
       </field>
       <field>
         <name>wrbt1</name>
-        <rename/>
       </field>
       <field>
         <name>mwsk2</name>
-        <rename/>
       </field>
       <field>
         <name>dmbt2</name>
-        <rename/>
       </field>
       <field>
         <name>wrbt2</name>
-        <rename/>
       </field>
       <field>
         <name>mwsk3</name>
@@ -17383,379 +17837,285 @@
       </field>
       <field>
         <name>dmbt3</name>
-        <rename/>
       </field>
       <field>
         <name>wrbt3</name>
-        <rename/>
       </field>
       <field>
         <name>rebzg</name>
-        <rename/>
       </field>
       <field>
         <name>rebzj</name>
-        <rename/>
       </field>
       <field>
         <name>rebzz</name>
-        <rename/>
       </field>
       <field>
         <name>rebzt</name>
-        <rename/>
       </field>
       <field>
         <name>zollt</name>
-        <rename/>
       </field>
       <field>
         <name>zolld</name>
-        <rename/>
       </field>
       <field>
         <name>lzbkz</name>
-        <rename/>
       </field>
       <field>
         <name>landl</name>
-        <rename/>
       </field>
       <field>
         <name>diekz</name>
-        <rename/>
       </field>
       <field>
         <name>samnr</name>
-        <rename/>
       </field>
       <field>
         <name>vrskz</name>
-        <rename/>
       </field>
       <field>
         <name>vrsdt</name>
-        <rename/>
       </field>
       <field>
         <name>disbn</name>
-        <rename/>
       </field>
       <field>
         <name>disbj</name>
-        <rename/>
       </field>
       <field>
         <name>disbz</name>
-        <rename/>
       </field>
       <field>
         <name>wverw</name>
-        <rename/>
       </field>
       <field>
         <name>anfbn</name>
-        <rename/>
       </field>
       <field>
         <name>anfbj</name>
-        <rename/>
       </field>
       <field>
         <name>anfbu</name>
-        <rename/>
       </field>
       <field>
         <name>anfae</name>
-        <rename/>
       </field>
       <field>
         <name>blnbt</name>
-        <rename/>
       </field>
       <field>
         <name>blnkz</name>
-        <rename/>
       </field>
       <field>
         <name>blnpz</name>
-        <rename/>
       </field>
       <field>
         <name>mschl</name>
-        <rename/>
       </field>
       <field>
         <name>mansp</name>
-        <rename/>
       </field>
       <field>
         <name>madat</name>
-        <rename/>
       </field>
       <field>
         <name>manst</name>
-        <rename/>
       </field>
       <field>
         <name>maber</name>
-        <rename/>
       </field>
       <field>
         <name>esrnr</name>
-        <rename/>
       </field>
       <field>
         <name>esrre</name>
-        <rename/>
       </field>
       <field>
         <name>esrpz</name>
-        <rename/>
       </field>
       <field>
         <name>klibt</name>
-        <rename/>
       </field>
       <field>
         <name>qsznr</name>
-        <rename/>
       </field>
       <field>
         <name>qbshb</name>
-        <rename/>
       </field>
       <field>
         <name>qsfbt</name>
-        <rename/>
       </field>
       <field>
         <name>navhw</name>
-        <rename/>
       </field>
       <field>
         <name>navfw</name>
-        <rename/>
       </field>
       <field>
         <name>matnr</name>
-        <rename/>
       </field>
       <field>
         <name>werks</name>
-        <rename/>
       </field>
       <field>
         <name>menge</name>
-        <rename/>
       </field>
       <field>
         <name>meins</name>
-        <rename/>
       </field>
       <field>
         <name>erfmg</name>
-        <rename/>
       </field>
       <field>
         <name>erfme</name>
-        <rename/>
       </field>
       <field>
         <name>bpmng</name>
-        <rename/>
       </field>
       <field>
         <name>bprme</name>
-        <rename/>
       </field>
       <field>
         <name>ebeln</name>
-        <rename/>
       </field>
       <field>
         <name>ebelp</name>
-        <rename/>
       </field>
       <field>
         <name>zekkn</name>
-        <rename/>
       </field>
       <field>
         <name>elikz</name>
-        <rename/>
       </field>
       <field>
         <name>vprsv</name>
-        <rename/>
       </field>
       <field>
         <name>peinh</name>
-        <rename/>
       </field>
       <field>
         <name>bwkey</name>
-        <rename/>
       </field>
       <field>
         <name>bwtar</name>
-        <rename/>
       </field>
       <field>
         <name>bustw</name>
-        <rename/>
       </field>
       <field>
         <name>rewrt</name>
-        <rename/>
       </field>
       <field>
         <name>rewwr</name>
-        <rename/>
       </field>
       <field>
         <name>bonfb</name>
-        <rename/>
       </field>
       <field>
         <name>bualt</name>
-        <rename/>
       </field>
       <field>
         <name>psalt</name>
-        <rename/>
       </field>
       <field>
         <name>nprei</name>
-        <rename/>
       </field>
       <field>
         <name>tbtkz</name>
-        <rename/>
       </field>
       <field>
         <name>spgrp</name>
-        <rename/>
       </field>
       <field>
         <name>spgrm</name>
-        <rename/>
       </field>
       <field>
         <name>spgrt</name>
-        <rename/>
       </field>
       <field>
         <name>spgrg</name>
-        <rename/>
       </field>
       <field>
         <name>spgrv</name>
-        <rename/>
       </field>
       <field>
         <name>spgrq</name>
-        <rename/>
       </field>
       <field>
         <name>stceg</name>
-        <rename/>
       </field>
       <field>
         <name>egbld</name>
-        <rename/>
       </field>
       <field>
         <name>eglld</name>
-        <rename/>
       </field>
       <field>
         <name>rstgr</name>
-        <rename/>
       </field>
       <field>
         <name>ryacq</name>
-        <rename/>
       </field>
       <field>
         <name>rpacq</name>
-        <rename/>
       </field>
       <field>
         <name>rdiff</name>
-        <rename/>
       </field>
       <field>
         <name>rdif2</name>
-        <rename/>
       </field>
       <field>
         <name>prctr</name>
-        <rename/>
       </field>
       <field>
         <name>xhkom</name>
-        <rename/>
       </field>
       <field>
         <name>vname</name>
-        <rename/>
       </field>
       <field>
         <name>recid</name>
-        <rename/>
       </field>
       <field>
         <name>egrup</name>
-        <rename/>
       </field>
       <field>
         <name>vptnr</name>
-        <rename/>
       </field>
       <field>
         <name>vertt</name>
-        <rename/>
       </field>
       <field>
         <name>vertn</name>
-        <rename/>
       </field>
       <field>
         <name>vbewa</name>
-        <rename/>
       </field>
       <field>
         <name>depot</name>
-        <rename/>
       </field>
       <field>
         <name>txjcd</name>
-        <rename/>
       </field>
       <field>
         <name>imkey</name>
-        <rename/>
       </field>
       <field>
         <name>dabrz</name>
-        <rename/>
       </field>
       <field>
         <name>popts</name>
-        <rename/>
       </field>
       <field>
         <name>fipos</name>
-        <rename/>
       </field>
       <field>
         <name>kstrg</name>
-        <rename/>
       </field>
       <field>
         <name>nplnr</name>
-        <rename/>
       </field>
       <field>
         <name>augbl</name>
@@ -17767,119 +18127,90 @@
       </field>
       <field>
         <name>projk</name>
-        <rename/>
       </field>
       <field>
         <name>paobjnr</name>
-        <rename/>
       </field>
       <field>
         <name>pasubnr</name>
-        <rename/>
       </field>
       <field>
         <name>spgrs</name>
-        <rename/>
       </field>
       <field>
         <name>spgrc</name>
-        <rename/>
       </field>
       <field>
         <name>btype</name>
-        <rename/>
       </field>
       <field>
         <name>etype</name>
-        <rename/>
       </field>
       <field>
         <name>xegdr</name>
-        <rename/>
       </field>
       <field>
         <name>lnran</name>
-        <rename/>
       </field>
       <field>
         <name>hrkft</name>
-        <rename/>
       </field>
       <field>
         <name>dmbe2</name>
-        <rename/>
       </field>
       <field>
         <name>dmbe3</name>
-        <rename/>
       </field>
       <field>
         <name>dmb21</name>
-        <rename/>
       </field>
       <field>
         <name>dmb22</name>
-        <rename/>
       </field>
       <field>
         <name>dmb23</name>
-        <rename/>
       </field>
       <field>
         <name>dmb31</name>
-        <rename/>
       </field>
       <field>
         <name>dmb32</name>
-        <rename/>
       </field>
       <field>
         <name>dmb33</name>
-        <rename/>
       </field>
       <field>
         <name>mwst2</name>
-        <rename/>
       </field>
       <field>
         <name>mwst3</name>
-        <rename/>
       </field>
       <field>
         <name>navh2</name>
-        <rename/>
       </field>
       <field>
         <name>navh3</name>
-        <rename/>
       </field>
       <field>
         <name>sknt2</name>
-        <rename/>
       </field>
       <field>
         <name>sknt3</name>
-        <rename/>
       </field>
       <field>
         <name>bdif3</name>
-        <rename/>
       </field>
       <field>
         <name>rdif3</name>
-        <rename/>
       </field>
       <field>
         <name>hwmet</name>
-        <rename/>
       </field>
       <field>
         <name>glupm</name>
-        <rename/>
       </field>
       <field>
         <name>xragl</name>
-        <rename/>
       </field>
       <field>
         <name>umskz</name>
@@ -17887,455 +18218,342 @@
       </field>
       <field>
         <name>lokkt</name>
-        <rename/>
       </field>
       <field>
         <name>fistl</name>
-        <rename/>
       </field>
       <field>
         <name>geber</name>
-        <rename/>
       </field>
       <field>
         <name>stbuk</name>
-        <rename/>
       </field>
       <field>
         <name>txbh2</name>
-        <rename/>
       </field>
       <field>
         <name>txbh3</name>
-        <rename/>
       </field>
       <field>
         <name>pprct</name>
-        <rename/>
       </field>
       <field>
         <name>xref1</name>
-        <rename/>
       </field>
       <field>
         <name>xref2</name>
-        <rename/>
       </field>
       <field>
         <name>kblnr</name>
-        <rename/>
       </field>
       <field>
         <name>kblpos</name>
-        <rename/>
       </field>
       <field>
         <name>sttax</name>
-        <rename/>
       </field>
       <field>
         <name>fkber</name>
-        <rename/>
       </field>
       <field>
         <name>obzei</name>
-        <rename/>
       </field>
       <field>
         <name>xnegp</name>
-        <rename/>
       </field>
       <field>
         <name>rfzei</name>
-        <rename/>
       </field>
       <field>
         <name>ccbtc</name>
-        <rename/>
       </field>
       <field>
         <name>kkber</name>
-        <rename/>
       </field>
       <field>
         <name>empfb</name>
-        <rename/>
       </field>
       <field>
         <name>xref3</name>
-        <rename/>
       </field>
       <field>
         <name>dtws1</name>
-        <rename/>
       </field>
       <field>
         <name>dtws2</name>
-        <rename/>
       </field>
       <field>
         <name>dtws3</name>
-        <rename/>
       </field>
       <field>
         <name>dtws4</name>
-        <rename/>
       </field>
       <field>
         <name>gricd</name>
-        <rename/>
       </field>
       <field>
         <name>grirg</name>
-        <rename/>
       </field>
       <field>
         <name>gityp</name>
-        <rename/>
       </field>
       <field>
         <name>xpypr</name>
-        <rename/>
       </field>
       <field>
         <name>kidno</name>
-        <rename/>
       </field>
       <field>
         <name>absbt</name>
-        <rename/>
       </field>
       <field>
         <name>idxsp</name>
-        <rename/>
       </field>
       <field>
         <name>linfv</name>
-        <rename/>
       </field>
       <field>
         <name>kontt</name>
-        <rename/>
       </field>
       <field>
         <name>kontl</name>
-        <rename/>
       </field>
       <field>
         <name>txdat</name>
-        <rename/>
       </field>
       <field>
         <name>agzei</name>
-        <rename/>
       </field>
       <field>
         <name>pycur</name>
-        <rename/>
       </field>
       <field>
         <name>pyamt</name>
-        <rename/>
       </field>
       <field>
         <name>bupla</name>
-        <rename/>
       </field>
       <field>
         <name>secco</name>
-        <rename/>
       </field>
       <field>
         <name>lstar</name>
-        <rename/>
       </field>
       <field>
         <name>cession_kz</name>
-        <rename/>
       </field>
       <field>
         <name>prznr</name>
-        <rename/>
       </field>
       <field>
         <name>ppdiff</name>
-        <rename/>
       </field>
       <field>
         <name>ppdif2</name>
-        <rename/>
       </field>
       <field>
         <name>ppdif3</name>
-        <rename/>
       </field>
       <field>
         <name>penlc1</name>
-        <rename/>
       </field>
       <field>
         <name>penlc2</name>
-        <rename/>
       </field>
       <field>
         <name>penlc3</name>
-        <rename/>
       </field>
       <field>
         <name>penfc</name>
-        <rename/>
       </field>
       <field>
         <name>pendays</name>
-        <rename/>
       </field>
       <field>
         <name>penrc</name>
-        <rename/>
       </field>
       <field>
         <name>grant_nbr</name>
-        <rename/>
       </field>
       <field>
         <name>sctax</name>
-        <rename/>
       </field>
       <field>
         <name>fkber_long</name>
-        <rename/>
       </field>
       <field>
         <name>gmvkz</name>
-        <rename/>
       </field>
       <field>
         <name>srtype</name>
-        <rename/>
       </field>
       <field>
         <name>intreno</name>
-        <rename/>
       </field>
       <field>
         <name>measure</name>
-        <rename/>
       </field>
       <field>
         <name>auggj</name>
-        <rename/>
       </field>
       <field>
         <name>ppa_ex_ind</name>
-        <rename/>
       </field>
       <field>
         <name>docln</name>
-        <rename/>
       </field>
       <field>
         <name>segment</name>
-        <rename/>
       </field>
       <field>
         <name>psegment</name>
-        <rename/>
       </field>
       <field>
         <name>pfkber</name>
-        <rename/>
       </field>
       <field>
         <name>hktid</name>
-        <rename/>
       </field>
       <field>
         <name>kstar</name>
-        <rename/>
       </field>
       <field>
         <name>xlgclr</name>
-        <rename/>
       </field>
       <field>
         <name>taxps</name>
-        <rename/>
       </field>
       <field>
         <name>pays_prov</name>
-        <rename/>
       </field>
       <field>
         <name>pays_tran</name>
-        <rename/>
       </field>
       <field>
         <name>mndid</name>
-        <rename/>
       </field>
       <field>
         <name>xfrge_bseg</name>
-        <rename/>
       </field>
       <field>
         <name>squan</name>
-        <rename/>
       </field>
       <field>
         <name>acrobjtype</name>
-        <rename/>
       </field>
       <field>
         <name>acrobj_id</name>
-        <rename/>
       </field>
       <field>
         <name>acrsobj_id</name>
-        <rename/>
       </field>
       <field>
         <name>acritmtype</name>
-        <rename/>
       </field>
       <field>
         <name>valobjtype</name>
-        <rename/>
       </field>
       <field>
         <name>valobj_id</name>
-        <rename/>
       </field>
       <field>
         <name>valsobj_id</name>
-        <rename/>
       </field>
       <field>
         <name>re_bukrs</name>
-        <rename/>
       </field>
       <field>
         <name>re_account</name>
-        <rename/>
       </field>
       <field>
         <name>pgeber</name>
-        <rename/>
       </field>
       <field>
         <name>pgrant_nbr</name>
-        <rename/>
       </field>
       <field>
         <name>budget_pd</name>
-        <rename/>
       </field>
       <field>
         <name>pbudget_pd</name>
-        <rename/>
       </field>
       <field>
         <name>j_1tpbupl</name>
-        <rename/>
       </field>
       <field>
         <name>perop_beg</name>
-        <rename/>
       </field>
       <field>
         <name>perop_end</name>
-        <rename/>
       </field>
       <field>
         <name>fastpay</name>
-        <rename/>
       </field>
       <field>
         <name>ignr_ivref</name>
-        <rename/>
       </field>
       <field>
         <name>fmfgus_key</name>
-        <rename/>
       </field>
       <field>
         <name>fmxdocnr</name>
-        <rename/>
       </field>
       <field>
         <name>fmxyear</name>
-        <rename/>
       </field>
       <field>
         <name>fmxdocln</name>
-        <rename/>
       </field>
       <field>
         <name>fmxzekkn</name>
-        <rename/>
       </field>
       <field>
         <name>prodper</name>
-        <rename/>
       </field>
       <field>
         <name>gst_part</name>
-        <rename/>
       </field>
       <field>
         <name>plc_sup</name>
-        <rename/>
       </field>
       <field>
         <name>hsn_sac</name>
-        <rename/>
       </field>
       <field>
         <name>irn</name>
-        <rename/>
       </field>
       <field>
         <name>recrf</name>
-        <rename/>
       </field>
       <field>
         <name>inward_no</name>
-        <rename/>
       </field>
       <field>
         <name>inward_dt</name>
-        <rename/>
       </field>
       <field>
         <name>ground_no</name>
-        <rename/>
       </field>
       <field>
         <name>ground_dt</name>
-        <rename/>
       </field>
       <field>
         <name>ground_typ</name>
-        <rename/>
       </field>
       <field>
         <name>pymtkey</name>
-        <rename/>
       </field>
       <field>
         <name>operation_flag</name>
-        <rename/>
       </field>
       <field>
         <name>is_deleted</name>
-        <rename/>
       </field>
       <field>
         <name>recordstamp</name>
-        <rename/>
       </field>
       <field>
         <name>abper</name>
-        <rename/>
       </field>
       <select_unspecified>N</select_unspecified>
     </fields>
@@ -18367,1427 +18585,1071 @@
     <fields>
       <field>
         <name>client_id</name>
-        <rename/>
       </field>
       <field>
         <name>company_code</name>
-        <rename/>
       </field>
       <field>
         <name>accounting_document_no</name>
-        <rename/>
       </field>
       <field>
         <name>fiscal_year</name>
-        <rename/>
       </field>
       <field>
         <name>line_item_no</name>
-        <rename/>
       </field>
       <field>
         <name>buzid</name>
-        <rename/>
       </field>
       <field>
         <name>augdt</name>
-        <rename/>
       </field>
       <field>
         <name>augcp</name>
-        <rename/>
       </field>
       <field>
         <name>augbl</name>
-        <rename/>
       </field>
       <field>
         <name>bschl</name>
-        <rename/>
       </field>
       <field>
         <name>account_type</name>
-        <rename/>
       </field>
       <field>
         <name>umskz</name>
-        <rename/>
       </field>
       <field>
         <name>umsks</name>
-        <rename/>
       </field>
       <field>
         <name>zumsk</name>
-        <rename/>
       </field>
       <field>
         <name>debit_credit_indicator</name>
-        <rename/>
       </field>
       <field>
         <name>gsber</name>
-        <rename/>
       </field>
       <field>
         <name>pargb</name>
-        <rename/>
       </field>
       <field>
         <name>mwskz</name>
-        <rename/>
       </field>
       <field>
         <name>qsskz</name>
-        <rename/>
       </field>
       <field>
         <name>amount_local_currency</name>
-        <rename/>
       </field>
       <field>
         <name>amount_document_currency</name>
-        <rename/>
       </field>
       <field>
         <name>kzbtr</name>
-        <rename/>
       </field>
       <field>
         <name>pswbt</name>
-        <rename/>
       </field>
       <field>
         <name>pswsl</name>
-        <rename/>
       </field>
       <field>
         <name>txbhw</name>
-        <rename/>
       </field>
       <field>
         <name>txbfw</name>
-        <rename/>
       </field>
       <field>
         <name>mwsts</name>
-        <rename/>
       </field>
       <field>
         <name>wmwst</name>
-        <rename/>
       </field>
       <field>
         <name>hwbas</name>
-        <rename/>
       </field>
       <field>
         <name>fwbas</name>
-        <rename/>
       </field>
       <field>
         <name>hwzuz</name>
-        <rename/>
       </field>
       <field>
         <name>fwzuz</name>
-        <rename/>
       </field>
       <field>
         <name>shzuz</name>
-        <rename/>
       </field>
       <field>
         <name>stekz</name>
-        <rename/>
       </field>
       <field>
         <name>mwart</name>
-        <rename/>
       </field>
       <field>
         <name>txgrp</name>
-        <rename/>
       </field>
       <field>
         <name>ktosl</name>
-        <rename/>
       </field>
       <field>
         <name>qsshb</name>
-        <rename/>
       </field>
       <field>
         <name>kursr</name>
-        <rename/>
       </field>
       <field>
         <name>gbetr</name>
-        <rename/>
       </field>
       <field>
         <name>bdiff</name>
-        <rename/>
       </field>
       <field>
         <name>bdif2</name>
-        <rename/>
       </field>
       <field>
         <name>valut</name>
-        <rename/>
       </field>
       <field>
         <name>assignment_no</name>
-        <rename/>
       </field>
       <field>
         <name>line_item_text</name>
-        <rename/>
       </field>
       <field>
         <name>payment_terms</name>
-        <rename/>
       </field>
       <field>
         <name>vbund</name>
-        <rename/>
       </field>
       <field>
         <name>bewar</name>
-        <rename/>
       </field>
       <field>
         <name>altkt</name>
-        <rename/>
       </field>
       <field>
         <name>vorgn</name>
-        <rename/>
       </field>
       <field>
         <name>fdlev</name>
-        <rename/>
       </field>
       <field>
         <name>fdgrp</name>
-        <rename/>
       </field>
       <field>
         <name>fdwbt</name>
-        <rename/>
       </field>
       <field>
         <name>fdtag</name>
-        <rename/>
       </field>
       <field>
         <name>fkont</name>
-        <rename/>
       </field>
       <field>
         <name>kokrs</name>
-        <rename/>
       </field>
       <field>
         <name>cost_center_id</name>
-        <rename/>
       </field>
       <field>
         <name>projn</name>
-        <rename/>
       </field>
       <field>
         <name>aufnr</name>
-        <rename/>
       </field>
       <field>
         <name>vbeln</name>
-        <rename/>
       </field>
       <field>
         <name>vbel2</name>
-        <rename/>
       </field>
       <field>
         <name>posn2</name>
-        <rename/>
       </field>
       <field>
         <name>eten2</name>
-        <rename/>
       </field>
       <field>
         <name>anln1</name>
-        <rename/>
       </field>
       <field>
         <name>anln2</name>
-        <rename/>
       </field>
       <field>
         <name>anbwa</name>
-        <rename/>
       </field>
       <field>
         <name>bzdat</name>
-        <rename/>
       </field>
       <field>
         <name>pernr</name>
-        <rename/>
       </field>
       <field>
         <name>xumsw</name>
-        <rename/>
       </field>
       <field>
         <name>xhres</name>
-        <rename/>
       </field>
       <field>
         <name>xkres</name>
-        <rename/>
       </field>
       <field>
         <name>xopvw</name>
-        <rename/>
       </field>
       <field>
         <name>xcpdd</name>
-        <rename/>
       </field>
       <field>
         <name>xskst</name>
-        <rename/>
       </field>
       <field>
         <name>xsauf</name>
-        <rename/>
       </field>
       <field>
         <name>xspro</name>
-        <rename/>
       </field>
       <field>
         <name>xserg</name>
-        <rename/>
       </field>
       <field>
         <name>xfakt</name>
-        <rename/>
       </field>
       <field>
         <name>xuman</name>
-        <rename/>
       </field>
       <field>
         <name>xanet</name>
-        <rename/>
       </field>
       <field>
         <name>xskrl</name>
-        <rename/>
       </field>
       <field>
         <name>xinve</name>
-        <rename/>
       </field>
       <field>
         <name>xpanz</name>
-        <rename/>
       </field>
       <field>
         <name>xauto</name>
-        <rename/>
       </field>
       <field>
         <name>xncop</name>
-        <rename/>
       </field>
       <field>
         <name>xzahl</name>
-        <rename/>
       </field>
       <field>
         <name>saknr</name>
-        <rename/>
       </field>
       <field>
         <name>gl_account_no</name>
-        <rename/>
       </field>
       <field>
         <name>customer_id</name>
-        <rename/>
       </field>
       <field>
         <name>vendor_id</name>
-        <rename/>
       </field>
       <field>
         <name>filkd</name>
-        <rename/>
       </field>
       <field>
         <name>xbilk</name>
-        <rename/>
       </field>
       <field>
         <name>gvtyp</name>
-        <rename/>
       </field>
       <field>
         <name>hzuon</name>
-        <rename/>
       </field>
       <field>
         <name>payement_baseline_date</name>
-        <rename/>
       </field>
       <field>
         <name>zterm</name>
-        <rename/>
       </field>
       <field>
         <name>zbd1t</name>
-        <rename/>
       </field>
       <field>
         <name>zbd2t</name>
-        <rename/>
       </field>
       <field>
         <name>zbd3t</name>
-        <rename/>
       </field>
       <field>
         <name>zbd1p</name>
-        <rename/>
       </field>
       <field>
         <name>zbd2p</name>
-        <rename/>
       </field>
       <field>
         <name>skfbt</name>
-        <rename/>
       </field>
       <field>
         <name>sknto</name>
-        <rename/>
       </field>
       <field>
         <name>wskto</name>
-        <rename/>
       </field>
       <field>
         <name>zlsch</name>
-        <rename/>
       </field>
       <field>
         <name>zlspr</name>
-        <rename/>
       </field>
       <field>
         <name>zbfix</name>
-        <rename/>
       </field>
       <field>
         <name>hbkid</name>
-        <rename/>
       </field>
       <field>
         <name>bvtyp</name>
-        <rename/>
       </field>
       <field>
         <name>nebtr</name>
-        <rename/>
       </field>
       <field>
         <name>mwsk1</name>
-        <rename/>
       </field>
       <field>
         <name>dmbt1</name>
-        <rename/>
       </field>
       <field>
         <name>wrbt1</name>
-        <rename/>
       </field>
       <field>
         <name>mwsk2</name>
-        <rename/>
       </field>
       <field>
         <name>dmbt2</name>
-        <rename/>
       </field>
       <field>
         <name>wrbt2</name>
-        <rename/>
       </field>
       <field>
         <name>tax_code</name>
-        <rename/>
       </field>
       <field>
         <name>dmbt3</name>
-        <rename/>
       </field>
       <field>
         <name>wrbt3</name>
-        <rename/>
       </field>
       <field>
         <name>rebzg</name>
-        <rename/>
       </field>
       <field>
         <name>rebzj</name>
-        <rename/>
       </field>
       <field>
         <name>rebzz</name>
-        <rename/>
       </field>
       <field>
         <name>rebzt</name>
-        <rename/>
       </field>
       <field>
         <name>zollt</name>
-        <rename/>
       </field>
       <field>
         <name>zolld</name>
-        <rename/>
       </field>
       <field>
         <name>lzbkz</name>
-        <rename/>
       </field>
       <field>
         <name>landl</name>
-        <rename/>
       </field>
       <field>
         <name>diekz</name>
-        <rename/>
       </field>
       <field>
         <name>samnr</name>
-        <rename/>
       </field>
       <field>
         <name>vrskz</name>
-        <rename/>
       </field>
       <field>
         <name>vrsdt</name>
-        <rename/>
       </field>
       <field>
         <name>disbn</name>
-        <rename/>
       </field>
       <field>
         <name>disbj</name>
-        <rename/>
       </field>
       <field>
         <name>disbz</name>
-        <rename/>
       </field>
       <field>
         <name>wverw</name>
-        <rename/>
       </field>
       <field>
         <name>anfbn</name>
-        <rename/>
       </field>
       <field>
         <name>anfbj</name>
-        <rename/>
       </field>
       <field>
         <name>anfbu</name>
-        <rename/>
       </field>
       <field>
         <name>anfae</name>
-        <rename/>
       </field>
       <field>
         <name>blnbt</name>
-        <rename/>
       </field>
       <field>
         <name>blnkz</name>
-        <rename/>
       </field>
       <field>
         <name>blnpz</name>
-        <rename/>
       </field>
       <field>
         <name>mschl</name>
-        <rename/>
       </field>
       <field>
         <name>mansp</name>
-        <rename/>
       </field>
       <field>
         <name>madat</name>
-        <rename/>
       </field>
       <field>
         <name>manst</name>
-        <rename/>
       </field>
       <field>
         <name>maber</name>
-        <rename/>
       </field>
       <field>
         <name>esrnr</name>
-        <rename/>
       </field>
       <field>
         <name>esrre</name>
-        <rename/>
       </field>
       <field>
         <name>esrpz</name>
-        <rename/>
       </field>
       <field>
         <name>klibt</name>
-        <rename/>
       </field>
       <field>
         <name>qsznr</name>
-        <rename/>
       </field>
       <field>
         <name>qbshb</name>
-        <rename/>
       </field>
       <field>
         <name>qsfbt</name>
-        <rename/>
       </field>
       <field>
         <name>navhw</name>
-        <rename/>
       </field>
       <field>
         <name>navfw</name>
-        <rename/>
       </field>
       <field>
         <name>matnr</name>
-        <rename/>
       </field>
       <field>
         <name>werks</name>
-        <rename/>
       </field>
       <field>
         <name>menge</name>
-        <rename/>
       </field>
       <field>
         <name>meins</name>
-        <rename/>
       </field>
       <field>
         <name>erfmg</name>
-        <rename/>
       </field>
       <field>
         <name>erfme</name>
-        <rename/>
       </field>
       <field>
         <name>bpmng</name>
-        <rename/>
       </field>
       <field>
         <name>bprme</name>
-        <rename/>
       </field>
       <field>
         <name>ebeln</name>
-        <rename/>
       </field>
       <field>
         <name>ebelp</name>
-        <rename/>
       </field>
       <field>
         <name>zekkn</name>
-        <rename/>
       </field>
       <field>
         <name>elikz</name>
-        <rename/>
       </field>
       <field>
         <name>vprsv</name>
-        <rename/>
       </field>
       <field>
         <name>peinh</name>
-        <rename/>
       </field>
       <field>
         <name>bwkey</name>
-        <rename/>
       </field>
       <field>
         <name>bwtar</name>
-        <rename/>
       </field>
       <field>
         <name>bustw</name>
-        <rename/>
       </field>
       <field>
         <name>rewrt</name>
-        <rename/>
       </field>
       <field>
         <name>rewwr</name>
-        <rename/>
       </field>
       <field>
         <name>bonfb</name>
-        <rename/>
       </field>
       <field>
         <name>bualt</name>
-        <rename/>
       </field>
       <field>
         <name>psalt</name>
-        <rename/>
       </field>
       <field>
         <name>nprei</name>
-        <rename/>
       </field>
       <field>
         <name>tbtkz</name>
-        <rename/>
       </field>
       <field>
         <name>spgrp</name>
-        <rename/>
       </field>
       <field>
         <name>spgrm</name>
-        <rename/>
       </field>
       <field>
         <name>spgrt</name>
-        <rename/>
       </field>
       <field>
         <name>spgrg</name>
-        <rename/>
       </field>
       <field>
         <name>spgrv</name>
-        <rename/>
       </field>
       <field>
         <name>spgrq</name>
-        <rename/>
       </field>
       <field>
         <name>stceg</name>
-        <rename/>
       </field>
       <field>
         <name>egbld</name>
-        <rename/>
       </field>
       <field>
         <name>eglld</name>
-        <rename/>
       </field>
       <field>
         <name>rstgr</name>
-        <rename/>
       </field>
       <field>
         <name>ryacq</name>
-        <rename/>
       </field>
       <field>
         <name>rpacq</name>
-        <rename/>
       </field>
       <field>
         <name>rdiff</name>
-        <rename/>
       </field>
       <field>
         <name>rdif2</name>
-        <rename/>
       </field>
       <field>
         <name>prctr</name>
-        <rename/>
       </field>
       <field>
         <name>xhkom</name>
-        <rename/>
       </field>
       <field>
         <name>vname</name>
-        <rename/>
       </field>
       <field>
         <name>recid</name>
-        <rename/>
       </field>
       <field>
         <name>egrup</name>
-        <rename/>
       </field>
       <field>
         <name>vptnr</name>
-        <rename/>
       </field>
       <field>
         <name>vertt</name>
-        <rename/>
       </field>
       <field>
         <name>vertn</name>
-        <rename/>
       </field>
       <field>
         <name>vbewa</name>
-        <rename/>
       </field>
       <field>
         <name>depot</name>
-        <rename/>
       </field>
       <field>
         <name>txjcd</name>
-        <rename/>
       </field>
       <field>
         <name>imkey</name>
-        <rename/>
       </field>
       <field>
         <name>dabrz</name>
-        <rename/>
       </field>
       <field>
         <name>popts</name>
-        <rename/>
       </field>
       <field>
         <name>fipos</name>
-        <rename/>
       </field>
       <field>
         <name>kstrg</name>
-        <rename/>
       </field>
       <field>
         <name>nplnr</name>
-        <rename/>
       </field>
       <field>
         <name>clearing_document_number</name>
-        <rename/>
       </field>
       <field>
         <name>clearing_date</name>
-        <rename/>
       </field>
       <field>
         <name>projk</name>
-        <rename/>
       </field>
       <field>
         <name>paobjnr</name>
-        <rename/>
       </field>
       <field>
         <name>pasubnr</name>
-        <rename/>
       </field>
       <field>
         <name>spgrs</name>
-        <rename/>
       </field>
       <field>
         <name>spgrc</name>
-        <rename/>
       </field>
       <field>
         <name>btype</name>
-        <rename/>
       </field>
       <field>
         <name>etype</name>
-        <rename/>
       </field>
       <field>
         <name>xegdr</name>
-        <rename/>
       </field>
       <field>
         <name>lnran</name>
-        <rename/>
       </field>
       <field>
         <name>hrkft</name>
-        <rename/>
       </field>
       <field>
         <name>dmbe2</name>
-        <rename/>
       </field>
       <field>
         <name>dmbe3</name>
-        <rename/>
       </field>
       <field>
         <name>dmb21</name>
-        <rename/>
       </field>
       <field>
         <name>dmb22</name>
-        <rename/>
       </field>
       <field>
         <name>dmb23</name>
-        <rename/>
       </field>
       <field>
         <name>dmb31</name>
-        <rename/>
       </field>
       <field>
         <name>dmb32</name>
-        <rename/>
       </field>
       <field>
         <name>dmb33</name>
-        <rename/>
       </field>
       <field>
         <name>mwst2</name>
-        <rename/>
       </field>
       <field>
         <name>mwst3</name>
-        <rename/>
       </field>
       <field>
         <name>navh2</name>
-        <rename/>
       </field>
       <field>
         <name>navh3</name>
-        <rename/>
       </field>
       <field>
         <name>sknt2</name>
-        <rename/>
       </field>
       <field>
         <name>sknt3</name>
-        <rename/>
       </field>
       <field>
         <name>bdif3</name>
-        <rename/>
       </field>
       <field>
         <name>rdif3</name>
-        <rename/>
       </field>
       <field>
         <name>hwmet</name>
-        <rename/>
       </field>
       <field>
         <name>glupm</name>
-        <rename/>
       </field>
       <field>
         <name>xragl</name>
-        <rename/>
       </field>
       <field>
         <name>special_gl_indicator</name>
-        <rename/>
       </field>
       <field>
         <name>lokkt</name>
-        <rename/>
       </field>
       <field>
         <name>fistl</name>
-        <rename/>
       </field>
       <field>
         <name>geber</name>
-        <rename/>
       </field>
       <field>
         <name>stbuk</name>
-        <rename/>
       </field>
       <field>
         <name>txbh2</name>
-        <rename/>
       </field>
       <field>
         <name>txbh3</name>
-        <rename/>
       </field>
       <field>
         <name>pprct</name>
-        <rename/>
       </field>
       <field>
         <name>xref1</name>
-        <rename/>
       </field>
       <field>
         <name>xref2</name>
-        <rename/>
       </field>
       <field>
         <name>kblnr</name>
-        <rename/>
       </field>
       <field>
         <name>kblpos</name>
-        <rename/>
       </field>
       <field>
         <name>sttax</name>
-        <rename/>
       </field>
       <field>
         <name>fkber</name>
-        <rename/>
       </field>
       <field>
         <name>obzei</name>
-        <rename/>
       </field>
       <field>
         <name>xnegp</name>
-        <rename/>
       </field>
       <field>
         <name>rfzei</name>
-        <rename/>
       </field>
       <field>
         <name>ccbtc</name>
-        <rename/>
       </field>
       <field>
         <name>kkber</name>
-        <rename/>
       </field>
       <field>
         <name>empfb</name>
-        <rename/>
       </field>
       <field>
         <name>xref3</name>
-        <rename/>
       </field>
       <field>
         <name>dtws1</name>
-        <rename/>
       </field>
       <field>
         <name>dtws2</name>
-        <rename/>
       </field>
       <field>
         <name>dtws3</name>
-        <rename/>
       </field>
       <field>
         <name>dtws4</name>
-        <rename/>
       </field>
       <field>
         <name>gricd</name>
-        <rename/>
       </field>
       <field>
         <name>grirg</name>
-        <rename/>
       </field>
       <field>
         <name>gityp</name>
-        <rename/>
       </field>
       <field>
         <name>xpypr</name>
-        <rename/>
       </field>
       <field>
         <name>kidno</name>
-        <rename/>
       </field>
       <field>
         <name>absbt</name>
-        <rename/>
       </field>
       <field>
         <name>idxsp</name>
-        <rename/>
       </field>
       <field>
         <name>linfv</name>
-        <rename/>
       </field>
       <field>
         <name>kontt</name>
-        <rename/>
       </field>
       <field>
         <name>kontl</name>
-        <rename/>
       </field>
       <field>
         <name>txdat</name>
-        <rename/>
       </field>
       <field>
         <name>agzei</name>
-        <rename/>
       </field>
       <field>
         <name>pycur</name>
-        <rename/>
       </field>
       <field>
         <name>pyamt</name>
-        <rename/>
       </field>
       <field>
         <name>bupla</name>
-        <rename/>
       </field>
       <field>
         <name>secco</name>
-        <rename/>
       </field>
       <field>
         <name>lstar</name>
-        <rename/>
       </field>
       <field>
         <name>cession_kz</name>
-        <rename/>
       </field>
       <field>
         <name>prznr</name>
-        <rename/>
       </field>
       <field>
         <name>ppdiff</name>
-        <rename/>
       </field>
       <field>
         <name>ppdif2</name>
-        <rename/>
       </field>
       <field>
         <name>ppdif3</name>
-        <rename/>
       </field>
       <field>
         <name>penlc1</name>
-        <rename/>
       </field>
       <field>
         <name>penlc2</name>
-        <rename/>
       </field>
       <field>
         <name>penlc3</name>
-        <rename/>
       </field>
       <field>
         <name>penfc</name>
-        <rename/>
       </field>
       <field>
         <name>pendays</name>
-        <rename/>
       </field>
       <field>
         <name>penrc</name>
-        <rename/>
       </field>
       <field>
         <name>grant_nbr</name>
-        <rename/>
       </field>
       <field>
         <name>sctax</name>
-        <rename/>
       </field>
       <field>
         <name>fkber_long</name>
-        <rename/>
       </field>
       <field>
         <name>gmvkz</name>
-        <rename/>
       </field>
       <field>
         <name>srtype</name>
-        <rename/>
       </field>
       <field>
         <name>intreno</name>
-        <rename/>
       </field>
       <field>
         <name>measure</name>
-        <rename/>
       </field>
       <field>
         <name>auggj</name>
-        <rename/>
       </field>
       <field>
         <name>ppa_ex_ind</name>
-        <rename/>
       </field>
       <field>
         <name>docln</name>
-        <rename/>
       </field>
       <field>
         <name>segment</name>
-        <rename/>
       </field>
       <field>
         <name>psegment</name>
-        <rename/>
       </field>
       <field>
         <name>pfkber</name>
-        <rename/>
       </field>
       <field>
         <name>hktid</name>
-        <rename/>
       </field>
       <field>
         <name>kstar</name>
-        <rename/>
       </field>
       <field>
         <name>xlgclr</name>
-        <rename/>
       </field>
       <field>
         <name>taxps</name>
-        <rename/>
       </field>
       <field>
         <name>pays_prov</name>
-        <rename/>
       </field>
       <field>
         <name>pays_tran</name>
-        <rename/>
       </field>
       <field>
         <name>mndid</name>
-        <rename/>
       </field>
       <field>
         <name>xfrge_bseg</name>
-        <rename/>
       </field>
       <field>
         <name>squan</name>
-        <rename/>
       </field>
       <field>
         <name>acrobjtype</name>
-        <rename/>
       </field>
       <field>
         <name>acrobj_id</name>
-        <rename/>
       </field>
       <field>
         <name>acrsobj_id</name>
-        <rename/>
       </field>
       <field>
         <name>acritmtype</name>
-        <rename/>
       </field>
       <field>
         <name>valobjtype</name>
-        <rename/>
       </field>
       <field>
         <name>valobj_id</name>
-        <rename/>
       </field>
       <field>
         <name>valsobj_id</name>
-        <rename/>
       </field>
       <field>
         <name>re_bukrs</name>
-        <rename/>
       </field>
       <field>
         <name>re_account</name>
-        <rename/>
       </field>
       <field>
         <name>pgeber</name>
-        <rename/>
       </field>
       <field>
         <name>pgrant_nbr</name>
-        <rename/>
       </field>
       <field>
         <name>budget_pd</name>
-        <rename/>
       </field>
       <field>
         <name>pbudget_pd</name>
-        <rename/>
       </field>
       <field>
         <name>j_1tpbupl</name>
-        <rename/>
       </field>
       <field>
         <name>perop_beg</name>
-        <rename/>
       </field>
       <field>
         <name>perop_end</name>
-        <rename/>
       </field>
       <field>
         <name>fastpay</name>
-        <rename/>
       </field>
       <field>
         <name>ignr_ivref</name>
-        <rename/>
       </field>
       <field>
         <name>fmfgus_key</name>
-        <rename/>
       </field>
       <field>
         <name>fmxdocnr</name>
-        <rename/>
       </field>
       <field>
         <name>fmxyear</name>
-        <rename/>
       </field>
       <field>
         <name>fmxdocln</name>
-        <rename/>
       </field>
       <field>
         <name>fmxzekkn</name>
-        <rename/>
       </field>
       <field>
         <name>prodper</name>
-        <rename/>
       </field>
       <field>
         <name>gst_part</name>
-        <rename/>
       </field>
       <field>
         <name>plc_sup</name>
-        <rename/>
       </field>
       <field>
         <name>hsn_sac</name>
-        <rename/>
       </field>
       <field>
         <name>irn</name>
-        <rename/>
       </field>
       <field>
         <name>recrf</name>
-        <rename/>
       </field>
       <field>
         <name>inward_no</name>
-        <rename/>
       </field>
       <field>
         <name>inward_dt</name>
-        <rename/>
       </field>
       <field>
         <name>ground_no</name>
-        <rename/>
       </field>
       <field>
         <name>ground_dt</name>
-        <rename/>
       </field>
       <field>
         <name>ground_typ</name>
-        <rename/>
       </field>
       <field>
         <name>pymtkey</name>
-        <rename/>
       </field>
       <field>
         <name>operation_flag</name>
-        <rename/>
       </field>
       <field>
         <name>is_deleted</name>
-        <rename/>
       </field>
       <field>
         <name>recordstamp</name>
-        <rename/>
       </field>
       <field>
         <name>abper</name>
-        <rename/>
       </field>
       <select_unspecified>N</select_unspecified>
       <remove>
@@ -21398,47 +21260,36 @@
     <fields>
       <field>
         <name>client_id</name>
-        <rename/>
       </field>
       <field>
         <name>language_code</name>
-        <rename/>
       </field>
       <field>
         <name>controlling_area</name>
-        <rename/>
       </field>
       <field>
         <name>cost_center_id</name>
-        <rename/>
       </field>
       <field>
         <name>valid_to_date</name>
-        <rename/>
       </field>
       <field>
         <name>cost_center_name</name>
-        <rename/>
       </field>
       <field>
         <name>cost_center_description</name>
-        <rename/>
       </field>
       <field>
         <name>mctxt</name>
-        <rename/>
       </field>
       <field>
         <name>operation_flag</name>
-        <rename/>
       </field>
       <field>
         <name>is_deleted</name>
-        <rename/>
       </field>
       <field>
         <name>recordstamp</name>
-        <rename/>
       </field>
       <select_unspecified>N</select_unspecified>
       <remove>
@@ -22135,6 +21986,484 @@
     </GUI>
   </step>
   <step>
+    <name>Table output</name>
+    <type>TableOutput</type>
+    <description/>
+    <distribute>Y</distribute>
+    <custom_distribution/>
+    <copies>1</copies>
+    <partitioning>
+      <method>none</method>
+      <schema_name/>
+    </partitioning>
+    <connection>LTI_project</connection>
+    <schema>public</schema>
+    <table>stg_bkpf</table>
+    <commit>1000</commit>
+    <truncate>Y</truncate>
+    <ignore_errors>N</ignore_errors>
+    <use_batch>Y</use_batch>
+    <specify_fields>N</specify_fields>
+    <partitioning_enabled>N</partitioning_enabled>
+    <partitioning_field/>
+    <partitioning_daily>N</partitioning_daily>
+    <partitioning_monthly>Y</partitioning_monthly>
+    <tablename_in_field>N</tablename_in_field>
+    <tablename_field/>
+    <tablename_in_table>Y</tablename_in_table>
+    <return_keys>N</return_keys>
+    <return_field/>
+    <fields>
+    </fields>
+    <attributes/>
+    <cluster_schema/>
+    <remotesteps>
+      <input>
+      </input>
+      <output>
+      </output>
+    </remotesteps>
+    <GUI>
+      <xloc>496</xloc>
+      <yloc>80</yloc>
+      <draw>Y</draw>
+    </GUI>
+  </step>
+  <step>
+    <name>Table output 10</name>
+    <type>TableOutput</type>
+    <description/>
+    <distribute>Y</distribute>
+    <custom_distribution/>
+    <copies>1</copies>
+    <partitioning>
+      <method>none</method>
+      <schema_name/>
+    </partitioning>
+    <connection>LTI_project</connection>
+    <schema>public</schema>
+    <table>stg_ska1</table>
+    <commit>1000</commit>
+    <truncate>Y</truncate>
+    <ignore_errors>N</ignore_errors>
+    <use_batch>Y</use_batch>
+    <specify_fields>N</specify_fields>
+    <partitioning_enabled>N</partitioning_enabled>
+    <partitioning_field/>
+    <partitioning_daily>N</partitioning_daily>
+    <partitioning_monthly>Y</partitioning_monthly>
+    <tablename_in_field>N</tablename_in_field>
+    <tablename_field/>
+    <tablename_in_table>Y</tablename_in_table>
+    <return_keys>N</return_keys>
+    <return_field/>
+    <fields>
+    </fields>
+    <attributes/>
+    <cluster_schema/>
+    <remotesteps>
+      <input>
+      </input>
+      <output>
+      </output>
+    </remotesteps>
+    <GUI>
+      <xloc>368</xloc>
+      <yloc>576</yloc>
+      <draw>Y</draw>
+    </GUI>
+  </step>
+  <step>
+    <name>Table output 2</name>
+    <type>TableOutput</type>
+    <description/>
+    <distribute>Y</distribute>
+    <custom_distribution/>
+    <copies>1</copies>
+    <partitioning>
+      <method>none</method>
+      <schema_name/>
+    </partitioning>
+    <connection>LTI_project</connection>
+    <schema>public</schema>
+    <table>stg_bseg</table>
+    <commit>1000</commit>
+    <truncate>Y</truncate>
+    <ignore_errors>N</ignore_errors>
+    <use_batch>Y</use_batch>
+    <specify_fields>N</specify_fields>
+    <partitioning_enabled>N</partitioning_enabled>
+    <partitioning_field/>
+    <partitioning_daily>N</partitioning_daily>
+    <partitioning_monthly>Y</partitioning_monthly>
+    <tablename_in_field>N</tablename_in_field>
+    <tablename_field/>
+    <tablename_in_table>Y</tablename_in_table>
+    <return_keys>N</return_keys>
+    <return_field/>
+    <fields>
+    </fields>
+    <attributes/>
+    <cluster_schema/>
+    <remotesteps>
+      <input>
+      </input>
+      <output>
+      </output>
+    </remotesteps>
+    <GUI>
+      <xloc>496</xloc>
+      <yloc>176</yloc>
+      <draw>Y</draw>
+    </GUI>
+  </step>
+  <step>
+    <name>Table output 3</name>
+    <type>TableOutput</type>
+    <description/>
+    <distribute>Y</distribute>
+    <custom_distribution/>
+    <copies>1</copies>
+    <partitioning>
+      <method>none</method>
+      <schema_name/>
+    </partitioning>
+    <connection>LTI_project</connection>
+    <schema>public</schema>
+    <table>stg_csks</table>
+    <commit>1000</commit>
+    <truncate>Y</truncate>
+    <ignore_errors>N</ignore_errors>
+    <use_batch>Y</use_batch>
+    <specify_fields>N</specify_fields>
+    <partitioning_enabled>N</partitioning_enabled>
+    <partitioning_field/>
+    <partitioning_daily>N</partitioning_daily>
+    <partitioning_monthly>Y</partitioning_monthly>
+    <tablename_in_field>N</tablename_in_field>
+    <tablename_field/>
+    <tablename_in_table>Y</tablename_in_table>
+    <return_keys>N</return_keys>
+    <return_field/>
+    <fields>
+    </fields>
+    <attributes/>
+    <cluster_schema/>
+    <remotesteps>
+      <input>
+      </input>
+      <output>
+      </output>
+    </remotesteps>
+    <GUI>
+      <xloc>491</xloc>
+      <yloc>272</yloc>
+      <draw>Y</draw>
+    </GUI>
+  </step>
+  <step>
+    <name>Table output 4</name>
+    <type>TableOutput</type>
+    <description/>
+    <distribute>Y</distribute>
+    <custom_distribution/>
+    <copies>1</copies>
+    <partitioning>
+      <method>none</method>
+      <schema_name/>
+    </partitioning>
+    <connection>LTI_project</connection>
+    <schema>public</schema>
+    <table>stg_cskt</table>
+    <commit>1000</commit>
+    <truncate>Y</truncate>
+    <ignore_errors>N</ignore_errors>
+    <use_batch>Y</use_batch>
+    <specify_fields>N</specify_fields>
+    <partitioning_enabled>N</partitioning_enabled>
+    <partitioning_field/>
+    <partitioning_daily>N</partitioning_daily>
+    <partitioning_monthly>Y</partitioning_monthly>
+    <tablename_in_field>N</tablename_in_field>
+    <tablename_field/>
+    <tablename_in_table>Y</tablename_in_table>
+    <return_keys>N</return_keys>
+    <return_field/>
+    <fields>
+    </fields>
+    <attributes/>
+    <cluster_schema/>
+    <remotesteps>
+      <input>
+      </input>
+      <output>
+      </output>
+    </remotesteps>
+    <GUI>
+      <xloc>496</xloc>
+      <yloc>368</yloc>
+      <draw>Y</draw>
+    </GUI>
+  </step>
+  <step>
+    <name>Table output 5</name>
+    <type>TableOutput</type>
+    <description/>
+    <distribute>Y</distribute>
+    <custom_distribution/>
+    <copies>1</copies>
+    <partitioning>
+      <method>none</method>
+      <schema_name/>
+    </partitioning>
+    <connection>LTI_project</connection>
+    <schema>public</schema>
+    <table>stg_kna1</table>
+    <commit>1000</commit>
+    <truncate>Y</truncate>
+    <ignore_errors>N</ignore_errors>
+    <use_batch>Y</use_batch>
+    <specify_fields>N</specify_fields>
+    <partitioning_enabled>N</partitioning_enabled>
+    <partitioning_field/>
+    <partitioning_daily>N</partitioning_daily>
+    <partitioning_monthly>Y</partitioning_monthly>
+    <tablename_in_field>N</tablename_in_field>
+    <tablename_field/>
+    <tablename_in_table>Y</tablename_in_table>
+    <return_keys>N</return_keys>
+    <return_field/>
+    <fields>
+    </fields>
+    <attributes/>
+    <cluster_schema/>
+    <remotesteps>
+      <input>
+      </input>
+      <output>
+      </output>
+    </remotesteps>
+    <GUI>
+      <xloc>1152</xloc>
+      <yloc>80</yloc>
+      <draw>Y</draw>
+    </GUI>
+  </step>
+  <step>
+    <name>Table output 6</name>
+    <type>TableOutput</type>
+    <description/>
+    <distribute>Y</distribute>
+    <custom_distribution/>
+    <copies>1</copies>
+    <partitioning>
+      <method>none</method>
+      <schema_name/>
+    </partitioning>
+    <connection>LTI_project</connection>
+    <schema>public</schema>
+    <table>stg_lfa1</table>
+    <commit>1000</commit>
+    <truncate>Y</truncate>
+    <ignore_errors>N</ignore_errors>
+    <use_batch>Y</use_batch>
+    <specify_fields>N</specify_fields>
+    <partitioning_enabled>N</partitioning_enabled>
+    <partitioning_field/>
+    <partitioning_daily>N</partitioning_daily>
+    <partitioning_monthly>Y</partitioning_monthly>
+    <tablename_in_field>N</tablename_in_field>
+    <tablename_field/>
+    <tablename_in_table>Y</tablename_in_table>
+    <return_keys>N</return_keys>
+    <return_field/>
+    <fields>
+    </fields>
+    <attributes/>
+    <cluster_schema/>
+    <remotesteps>
+      <input>
+      </input>
+      <output>
+      </output>
+    </remotesteps>
+    <GUI>
+      <xloc>1152</xloc>
+      <yloc>176</yloc>
+      <draw>Y</draw>
+    </GUI>
+  </step>
+  <step>
+    <name>Table output 7</name>
+    <type>TableOutput</type>
+    <description/>
+    <distribute>Y</distribute>
+    <custom_distribution/>
+    <copies>1</copies>
+    <partitioning>
+      <method>none</method>
+      <schema_name/>
+    </partitioning>
+    <connection>LTI_project</connection>
+    <schema>public</schema>
+    <table>stg_t001</table>
+    <commit>1000</commit>
+    <truncate>Y</truncate>
+    <ignore_errors>N</ignore_errors>
+    <use_batch>Y</use_batch>
+    <specify_fields>N</specify_fields>
+    <partitioning_enabled>N</partitioning_enabled>
+    <partitioning_field/>
+    <partitioning_daily>N</partitioning_daily>
+    <partitioning_monthly>Y</partitioning_monthly>
+    <tablename_in_field>N</tablename_in_field>
+    <tablename_field/>
+    <tablename_in_table>Y</tablename_in_table>
+    <return_keys>N</return_keys>
+    <return_field/>
+    <fields>
+    </fields>
+    <attributes/>
+    <cluster_schema/>
+    <remotesteps>
+      <input>
+      </input>
+      <output>
+      </output>
+    </remotesteps>
+    <GUI>
+      <xloc>1158</xloc>
+      <yloc>270</yloc>
+      <draw>Y</draw>
+    </GUI>
+  </step>
+  <step>
+    <name>Table output 8</name>
+    <type>TableOutput</type>
+    <description/>
+    <distribute>Y</distribute>
+    <custom_distribution/>
+    <copies>1</copies>
+    <partitioning>
+      <method>none</method>
+      <schema_name/>
+    </partitioning>
+    <connection>LTI_project</connection>
+    <schema>public</schema>
+    <table>stg_t002</table>
+    <commit>1000</commit>
+    <truncate>Y</truncate>
+    <ignore_errors>N</ignore_errors>
+    <use_batch>Y</use_batch>
+    <specify_fields>N</specify_fields>
+    <partitioning_enabled>N</partitioning_enabled>
+    <partitioning_field/>
+    <partitioning_daily>N</partitioning_daily>
+    <partitioning_monthly>Y</partitioning_monthly>
+    <tablename_in_field>N</tablename_in_field>
+    <tablename_field/>
+    <tablename_in_table>Y</tablename_in_table>
+    <return_keys>N</return_keys>
+    <return_field/>
+    <fields>
+    </fields>
+    <attributes/>
+    <cluster_schema/>
+    <remotesteps>
+      <input>
+      </input>
+      <output>
+      </output>
+    </remotesteps>
+    <GUI>
+      <xloc>1152</xloc>
+      <yloc>368</yloc>
+      <draw>Y</draw>
+    </GUI>
+  </step>
+  <step>
+    <name>Table output 9</name>
+    <type>TableOutput</type>
+    <description/>
+    <distribute>Y</distribute>
+    <custom_distribution/>
+    <copies>1</copies>
+    <partitioning>
+      <method>none</method>
+      <schema_name/>
+    </partitioning>
+    <connection>LTI_project</connection>
+    <schema>public</schema>
+    <table>stg_skat</table>
+    <commit>1000</commit>
+    <truncate>Y</truncate>
+    <ignore_errors>N</ignore_errors>
+    <use_batch>Y</use_batch>
+    <specify_fields>N</specify_fields>
+    <partitioning_enabled>N</partitioning_enabled>
+    <partitioning_field/>
+    <partitioning_daily>N</partitioning_daily>
+    <partitioning_monthly>Y</partitioning_monthly>
+    <tablename_in_field>N</tablename_in_field>
+    <tablename_field/>
+    <tablename_in_table>Y</tablename_in_table>
+    <return_keys>N</return_keys>
+    <return_field/>
+    <fields>
+    </fields>
+    <attributes/>
+    <cluster_schema/>
+    <remotesteps>
+      <input>
+      </input>
+      <output>
+      </output>
+    </remotesteps>
+    <GUI>
+      <xloc>1136</xloc>
+      <yloc>464</yloc>
+      <draw>Y</draw>
+    </GUI>
+  </step>
+  <step>
+    <name>Value mapper</name>
+    <type>ValueMapper</type>
+    <description/>
+    <distribute>Y</distribute>
+    <custom_distribution/>
+    <copies>1</copies>
+    <partitioning>
+      <method>none</method>
+      <schema_name/>
+    </partitioning>
+    <field_to_use>is_deleted</field_to_use>
+    <target_field/>
+    <non_match_default/>
+    <fields>
+      <field>
+        <source_value>N</source_value>
+        <target_value>false</target_value>
+      </field>
+      <field>
+        <source_value>Y</source_value>
+        <target_value>true</target_value>
+      </field>
+    </fields>
+    <attributes/>
+    <cluster_schema/>
+    <remotesteps>
+      <input>
+      </input>
+      <output>
+      </output>
+    </remotesteps>
+    <GUI>
+      <xloc>880</xloc>
+      <yloc>464</yloc>
+      <draw>Y</draw>
+    </GUI>
+  </step>
+  <step>
     <name>XML input stream (StAX)</name>
     <type>XMLInputStream</type>
     <description/>
@@ -22147,7 +22476,7 @@
     </partitioning>
     <sourceFromInput>N</sourceFromInput>
     <sourceFieldName/>
-    <filename>D:/Data Engineering/Pentaho/Sem1_Project/SAP/skat.xml</filename>
+    <filename>D:\Data Engineering\Pentaho\EFDP\datasets\SAP\skat.xml</filename>
     <addResultFile>N</addResultFile>
     <nrRowsToSkip>0</nrRowsToSkip>
     <rowLimit>0</rowLimit>
@@ -22192,1039 +22521,6 @@
     <GUI>
       <xloc>96</xloc>
       <yloc>464</yloc>
-      <draw>Y</draw>
-    </GUI>
-  </step>
-  <step>
-    <name>Table output</name>
-    <type>TableOutput</type>
-    <description/>
-    <distribute>Y</distribute>
-    <custom_distribution/>
-    <copies>1</copies>
-    <partitioning>
-      <method>none</method>
-      <schema_name/>
-    </partitioning>
-    <connection>LTI_project</connection>
-    <schema>public</schema>
-    <table>stg_bkpf</table>
-    <commit>1000</commit>
-    <truncate>N</truncate>
-    <ignore_errors>N</ignore_errors>
-    <use_batch>Y</use_batch>
-    <specify_fields>N</specify_fields>
-    <partitioning_enabled>N</partitioning_enabled>
-    <partitioning_field/>
-    <partitioning_daily>N</partitioning_daily>
-    <partitioning_monthly>Y</partitioning_monthly>
-    <tablename_in_field>N</tablename_in_field>
-    <tablename_field/>
-    <tablename_in_table>Y</tablename_in_table>
-    <return_keys>N</return_keys>
-    <return_field/>
-    <fields>
-    </fields>
-    <attributes/>
-    <cluster_schema/>
-    <remotesteps>
-      <input>
-      </input>
-      <output>
-      </output>
-    </remotesteps>
-    <GUI>
-      <xloc>496</xloc>
-      <yloc>80</yloc>
-      <draw>Y</draw>
-    </GUI>
-  </step>
-  <step>
-    <name>Table output 2</name>
-    <type>TableOutput</type>
-    <description/>
-    <distribute>Y</distribute>
-    <custom_distribution/>
-    <copies>1</copies>
-    <partitioning>
-      <method>none</method>
-      <schema_name/>
-    </partitioning>
-    <connection>LTI_project</connection>
-    <schema>public</schema>
-    <table>stg_bseg</table>
-    <commit>1000</commit>
-    <truncate>N</truncate>
-    <ignore_errors>N</ignore_errors>
-    <use_batch>Y</use_batch>
-    <specify_fields>N</specify_fields>
-    <partitioning_enabled>N</partitioning_enabled>
-    <partitioning_field/>
-    <partitioning_daily>N</partitioning_daily>
-    <partitioning_monthly>Y</partitioning_monthly>
-    <tablename_in_field>N</tablename_in_field>
-    <tablename_field/>
-    <tablename_in_table>Y</tablename_in_table>
-    <return_keys>N</return_keys>
-    <return_field/>
-    <fields>
-    </fields>
-    <attributes/>
-    <cluster_schema/>
-    <remotesteps>
-      <input>
-      </input>
-      <output>
-      </output>
-    </remotesteps>
-    <GUI>
-      <xloc>496</xloc>
-      <yloc>176</yloc>
-      <draw>Y</draw>
-    </GUI>
-  </step>
-  <step>
-    <name>Table output 3</name>
-    <type>TableOutput</type>
-    <description/>
-    <distribute>Y</distribute>
-    <custom_distribution/>
-    <copies>1</copies>
-    <partitioning>
-      <method>none</method>
-      <schema_name/>
-    </partitioning>
-    <connection>LTI_project</connection>
-    <schema>public</schema>
-    <table>stg_csks</table>
-    <commit>1000</commit>
-    <truncate>N</truncate>
-    <ignore_errors>N</ignore_errors>
-    <use_batch>Y</use_batch>
-    <specify_fields>N</specify_fields>
-    <partitioning_enabled>N</partitioning_enabled>
-    <partitioning_field/>
-    <partitioning_daily>N</partitioning_daily>
-    <partitioning_monthly>Y</partitioning_monthly>
-    <tablename_in_field>N</tablename_in_field>
-    <tablename_field/>
-    <tablename_in_table>Y</tablename_in_table>
-    <return_keys>N</return_keys>
-    <return_field/>
-    <fields>
-    </fields>
-    <attributes/>
-    <cluster_schema/>
-    <remotesteps>
-      <input>
-      </input>
-      <output>
-      </output>
-    </remotesteps>
-    <GUI>
-      <xloc>491</xloc>
-      <yloc>272</yloc>
-      <draw>Y</draw>
-    </GUI>
-  </step>
-  <step>
-    <name>Table output 4</name>
-    <type>TableOutput</type>
-    <description/>
-    <distribute>Y</distribute>
-    <custom_distribution/>
-    <copies>1</copies>
-    <partitioning>
-      <method>none</method>
-      <schema_name/>
-    </partitioning>
-    <connection>LTI_project</connection>
-    <schema>public</schema>
-    <table>stg_cskt</table>
-    <commit>1000</commit>
-    <truncate>N</truncate>
-    <ignore_errors>N</ignore_errors>
-    <use_batch>Y</use_batch>
-    <specify_fields>N</specify_fields>
-    <partitioning_enabled>N</partitioning_enabled>
-    <partitioning_field/>
-    <partitioning_daily>N</partitioning_daily>
-    <partitioning_monthly>Y</partitioning_monthly>
-    <tablename_in_field>N</tablename_in_field>
-    <tablename_field/>
-    <tablename_in_table>Y</tablename_in_table>
-    <return_keys>N</return_keys>
-    <return_field/>
-    <fields>
-    </fields>
-    <attributes/>
-    <cluster_schema/>
-    <remotesteps>
-      <input>
-      </input>
-      <output>
-      </output>
-    </remotesteps>
-    <GUI>
-      <xloc>496</xloc>
-      <yloc>368</yloc>
-      <draw>Y</draw>
-    </GUI>
-  </step>
-  <step>
-    <name>Table output 5</name>
-    <type>TableOutput</type>
-    <description/>
-    <distribute>Y</distribute>
-    <custom_distribution/>
-    <copies>1</copies>
-    <partitioning>
-      <method>none</method>
-      <schema_name/>
-    </partitioning>
-    <connection>LTI_project</connection>
-    <schema>public</schema>
-    <table>stg_kna1</table>
-    <commit>1000</commit>
-    <truncate>N</truncate>
-    <ignore_errors>N</ignore_errors>
-    <use_batch>Y</use_batch>
-    <specify_fields>N</specify_fields>
-    <partitioning_enabled>N</partitioning_enabled>
-    <partitioning_field/>
-    <partitioning_daily>N</partitioning_daily>
-    <partitioning_monthly>Y</partitioning_monthly>
-    <tablename_in_field>N</tablename_in_field>
-    <tablename_field/>
-    <tablename_in_table>Y</tablename_in_table>
-    <return_keys>N</return_keys>
-    <return_field/>
-    <fields>
-    </fields>
-    <attributes/>
-    <cluster_schema/>
-    <remotesteps>
-      <input>
-      </input>
-      <output>
-      </output>
-    </remotesteps>
-    <GUI>
-      <xloc>1152</xloc>
-      <yloc>80</yloc>
-      <draw>Y</draw>
-    </GUI>
-  </step>
-  <step>
-    <name>Table output 6</name>
-    <type>TableOutput</type>
-    <description/>
-    <distribute>Y</distribute>
-    <custom_distribution/>
-    <copies>1</copies>
-    <partitioning>
-      <method>none</method>
-      <schema_name/>
-    </partitioning>
-    <connection>LTI_project</connection>
-    <schema>public</schema>
-    <table>stg_lfa1</table>
-    <commit>1000</commit>
-    <truncate>N</truncate>
-    <ignore_errors>N</ignore_errors>
-    <use_batch>Y</use_batch>
-    <specify_fields>N</specify_fields>
-    <partitioning_enabled>N</partitioning_enabled>
-    <partitioning_field/>
-    <partitioning_daily>N</partitioning_daily>
-    <partitioning_monthly>Y</partitioning_monthly>
-    <tablename_in_field>N</tablename_in_field>
-    <tablename_field/>
-    <tablename_in_table>Y</tablename_in_table>
-    <return_keys>N</return_keys>
-    <return_field/>
-    <fields>
-    </fields>
-    <attributes/>
-    <cluster_schema/>
-    <remotesteps>
-      <input>
-      </input>
-      <output>
-      </output>
-    </remotesteps>
-    <GUI>
-      <xloc>1152</xloc>
-      <yloc>176</yloc>
-      <draw>Y</draw>
-    </GUI>
-  </step>
-  <step>
-    <name>Table output 7</name>
-    <type>TableOutput</type>
-    <description/>
-    <distribute>Y</distribute>
-    <custom_distribution/>
-    <copies>1</copies>
-    <partitioning>
-      <method>none</method>
-      <schema_name/>
-    </partitioning>
-    <connection>LTI_project</connection>
-    <schema>public</schema>
-    <table>stg_t001</table>
-    <commit>1000</commit>
-    <truncate>N</truncate>
-    <ignore_errors>N</ignore_errors>
-    <use_batch>Y</use_batch>
-    <specify_fields>N</specify_fields>
-    <partitioning_enabled>N</partitioning_enabled>
-    <partitioning_field/>
-    <partitioning_daily>N</partitioning_daily>
-    <partitioning_monthly>Y</partitioning_monthly>
-    <tablename_in_field>N</tablename_in_field>
-    <tablename_field/>
-    <tablename_in_table>Y</tablename_in_table>
-    <return_keys>N</return_keys>
-    <return_field/>
-    <fields>
-    </fields>
-    <attributes/>
-    <cluster_schema/>
-    <remotesteps>
-      <input>
-      </input>
-      <output>
-      </output>
-    </remotesteps>
-    <GUI>
-      <xloc>1158</xloc>
-      <yloc>270</yloc>
-      <draw>Y</draw>
-    </GUI>
-  </step>
-  <step>
-    <name>Table output 9</name>
-    <type>TableOutput</type>
-    <description/>
-    <distribute>Y</distribute>
-    <custom_distribution/>
-    <copies>1</copies>
-    <partitioning>
-      <method>none</method>
-      <schema_name/>
-    </partitioning>
-    <connection>LTI_project</connection>
-    <schema>public</schema>
-    <table>stg_skat</table>
-    <commit>1000</commit>
-    <truncate>N</truncate>
-    <ignore_errors>N</ignore_errors>
-    <use_batch>Y</use_batch>
-    <specify_fields>N</specify_fields>
-    <partitioning_enabled>N</partitioning_enabled>
-    <partitioning_field/>
-    <partitioning_daily>N</partitioning_daily>
-    <partitioning_monthly>Y</partitioning_monthly>
-    <tablename_in_field>N</tablename_in_field>
-    <tablename_field/>
-    <tablename_in_table>Y</tablename_in_table>
-    <return_keys>N</return_keys>
-    <return_field/>
-    <fields>
-    </fields>
-    <attributes/>
-    <cluster_schema/>
-    <remotesteps>
-      <input>
-      </input>
-      <output>
-      </output>
-    </remotesteps>
-    <GUI>
-      <xloc>1136</xloc>
-      <yloc>464</yloc>
-      <draw>Y</draw>
-    </GUI>
-  </step>
-  <step>
-    <name>Table output 10</name>
-    <type>TableOutput</type>
-    <description/>
-    <distribute>Y</distribute>
-    <custom_distribution/>
-    <copies>1</copies>
-    <partitioning>
-      <method>none</method>
-      <schema_name/>
-    </partitioning>
-    <connection>LTI_project</connection>
-    <schema>public</schema>
-    <table>stg_ska1</table>
-    <commit>1000</commit>
-    <truncate>N</truncate>
-    <ignore_errors>N</ignore_errors>
-    <use_batch>Y</use_batch>
-    <specify_fields>N</specify_fields>
-    <partitioning_enabled>N</partitioning_enabled>
-    <partitioning_field/>
-    <partitioning_daily>N</partitioning_daily>
-    <partitioning_monthly>Y</partitioning_monthly>
-    <tablename_in_field>N</tablename_in_field>
-    <tablename_field/>
-    <tablename_in_table>Y</tablename_in_table>
-    <return_keys>N</return_keys>
-    <return_field/>
-    <fields>
-    </fields>
-    <attributes/>
-    <cluster_schema/>
-    <remotesteps>
-      <input>
-      </input>
-      <output>
-      </output>
-    </remotesteps>
-    <GUI>
-      <xloc>368</xloc>
-      <yloc>576</yloc>
-      <draw>Y</draw>
-    </GUI>
-  </step>
-  <step>
-    <name>Value mapper</name>
-    <type>ValueMapper</type>
-    <description/>
-    <distribute>Y</distribute>
-    <custom_distribution/>
-    <copies>1</copies>
-    <partitioning>
-      <method>none</method>
-      <schema_name/>
-    </partitioning>
-    <field_to_use>is_deleted</field_to_use>
-    <target_field/>
-    <non_match_default/>
-    <fields>
-      <field>
-        <source_value>N</source_value>
-        <target_value>false</target_value>
-      </field>
-      <field>
-        <source_value>Y</source_value>
-        <target_value>true</target_value>
-      </field>
-    </fields>
-    <attributes/>
-    <cluster_schema/>
-    <remotesteps>
-      <input>
-      </input>
-      <output>
-      </output>
-    </remotesteps>
-    <GUI>
-      <xloc>880</xloc>
-      <yloc>464</yloc>
-      <draw>Y</draw>
-    </GUI>
-  </step>
-  <step>
-    <name>Select values 15</name>
-    <type>SelectValues</type>
-    <description/>
-    <distribute>Y</distribute>
-    <custom_distribution/>
-    <copies>1</copies>
-    <partitioning>
-      <method>none</method>
-      <schema_name/>
-    </partitioning>
-    <fields>
-      <select_unspecified>N</select_unspecified>
-      <meta>
-        <name>client_id</name>
-        <rename>client_id</rename>
-        <type>None</type>
-        <length>-2</length>
-        <precision>-2</precision>
-        <conversion_mask/>
-        <date_format_lenient>false</date_format_lenient>
-        <date_format_locale/>
-        <date_format_timezone/>
-        <lenient_string_to_number>false</lenient_string_to_number>
-        <encoding/>
-        <decimal_symbol/>
-        <grouping_symbol/>
-        <currency_symbol/>
-        <storage_type/>
-      </meta>
-      <meta>
-        <name>language_code</name>
-        <rename>language_code</rename>
-        <type>None</type>
-        <length>-2</length>
-        <precision>-2</precision>
-        <conversion_mask/>
-        <date_format_lenient>false</date_format_lenient>
-        <date_format_locale/>
-        <date_format_timezone/>
-        <lenient_string_to_number>false</lenient_string_to_number>
-        <encoding/>
-        <decimal_symbol/>
-        <grouping_symbol/>
-        <currency_symbol/>
-        <storage_type/>
-      </meta>
-      <meta>
-        <name>chart_of_accounts</name>
-        <rename>chart_of_accounts</rename>
-        <type>None</type>
-        <length>-2</length>
-        <precision>-2</precision>
-        <conversion_mask/>
-        <date_format_lenient>false</date_format_lenient>
-        <date_format_locale/>
-        <date_format_timezone/>
-        <lenient_string_to_number>false</lenient_string_to_number>
-        <encoding/>
-        <decimal_symbol/>
-        <grouping_symbol/>
-        <currency_symbol/>
-        <storage_type/>
-      </meta>
-      <meta>
-        <name>gl_account_number</name>
-        <rename>gl_account_number</rename>
-        <type>None</type>
-        <length>-2</length>
-        <precision>-2</precision>
-        <conversion_mask/>
-        <date_format_lenient>false</date_format_lenient>
-        <date_format_locale/>
-        <date_format_timezone/>
-        <lenient_string_to_number>false</lenient_string_to_number>
-        <encoding/>
-        <decimal_symbol/>
-        <grouping_symbol/>
-        <currency_symbol/>
-        <storage_type/>
-      </meta>
-      <meta>
-        <name>gl_account_short_name</name>
-        <rename>gl_account_short_name</rename>
-        <type>None</type>
-        <length>-2</length>
-        <precision>-2</precision>
-        <conversion_mask/>
-        <date_format_lenient>false</date_format_lenient>
-        <date_format_locale/>
-        <date_format_timezone/>
-        <lenient_string_to_number>false</lenient_string_to_number>
-        <encoding/>
-        <decimal_symbol/>
-        <grouping_symbol/>
-        <currency_symbol/>
-        <storage_type/>
-      </meta>
-      <meta>
-        <name>gl_account_description</name>
-        <rename>gl_account_description</rename>
-        <type>None</type>
-        <length>-2</length>
-        <precision>-2</precision>
-        <conversion_mask/>
-        <date_format_lenient>false</date_format_lenient>
-        <date_format_locale/>
-        <date_format_timezone/>
-        <lenient_string_to_number>false</lenient_string_to_number>
-        <encoding/>
-        <decimal_symbol/>
-        <grouping_symbol/>
-        <currency_symbol/>
-        <storage_type/>
-      </meta>
-      <meta>
-        <name>search_term</name>
-        <rename>search_term</rename>
-        <type>None</type>
-        <length>-2</length>
-        <precision>-2</precision>
-        <conversion_mask/>
-        <date_format_lenient>false</date_format_lenient>
-        <date_format_locale/>
-        <date_format_timezone/>
-        <lenient_string_to_number>false</lenient_string_to_number>
-        <encoding/>
-        <decimal_symbol/>
-        <grouping_symbol/>
-        <currency_symbol/>
-        <storage_type/>
-      </meta>
-      <meta>
-        <name>operation_flag</name>
-        <rename>operation_flag</rename>
-        <type>None</type>
-        <length>-2</length>
-        <precision>-2</precision>
-        <conversion_mask/>
-        <date_format_lenient>false</date_format_lenient>
-        <date_format_locale/>
-        <date_format_timezone/>
-        <lenient_string_to_number>false</lenient_string_to_number>
-        <encoding/>
-        <decimal_symbol/>
-        <grouping_symbol/>
-        <currency_symbol/>
-        <storage_type/>
-      </meta>
-      <meta>
-        <name>is_deleted</name>
-        <rename>is_deleted</rename>
-        <type>Boolean</type>
-        <length>-2</length>
-        <precision>-2</precision>
-        <conversion_mask/>
-        <date_format_lenient>false</date_format_lenient>
-        <date_format_locale/>
-        <date_format_timezone/>
-        <lenient_string_to_number>false</lenient_string_to_number>
-        <encoding/>
-        <decimal_symbol/>
-        <grouping_symbol/>
-        <currency_symbol/>
-        <storage_type/>
-      </meta>
-      <meta>
-        <name>record_timestamp</name>
-        <rename>record_timestamp</rename>
-        <type>None</type>
-        <length>-2</length>
-        <precision>-2</precision>
-        <conversion_mask/>
-        <date_format_lenient>false</date_format_lenient>
-        <date_format_locale/>
-        <date_format_timezone/>
-        <lenient_string_to_number>false</lenient_string_to_number>
-        <encoding/>
-        <decimal_symbol/>
-        <grouping_symbol/>
-        <currency_symbol/>
-        <storage_type/>
-      </meta>
-    </fields>
-    <attributes/>
-    <cluster_schema/>
-    <remotesteps>
-      <input>
-      </input>
-      <output>
-      </output>
-    </remotesteps>
-    <GUI>
-      <xloc>1008</xloc>
-      <yloc>464</yloc>
-      <draw>Y</draw>
-    </GUI>
-  </step>
-  <step>
-    <name>Microsoft Excel input</name>
-    <type>ExcelInput</type>
-    <description/>
-    <distribute>Y</distribute>
-    <custom_distribution/>
-    <copies>1</copies>
-    <partitioning>
-      <method>none</method>
-      <schema_name/>
-    </partitioning>
-    <header>Y</header>
-    <noempty>Y</noempty>
-    <stoponempty>N</stoponempty>
-    <filefield/>
-    <sheetfield/>
-    <sheetrownumfield/>
-    <rownumfield/>
-    <sheetfield/>
-    <filefield/>
-    <limit>0</limit>
-    <encoding/>
-    <add_to_result_filenames>Y</add_to_result_filenames>
-    <accept_filenames>N</accept_filenames>
-    <accept_field/>
-    <accept_stepname/>
-    <file>
-      <name>D:/Data Engineering/Pentaho/Sem1_Project/SAP/t002.xls</name>
-      <filemask/>
-      <exclude_filemask/>
-      <file_required>N</file_required>
-      <include_subfolders>N</include_subfolders>
-    </file>
-    <fields>
-      <field>
-        <name>spras</name>
-        <type>String</type>
-        <length>-1</length>
-        <precision>-1</precision>
-        <trim_type>none</trim_type>
-        <repeat>N</repeat>
-        <format/>
-        <currency/>
-        <decimal/>
-        <group/>
-      </field>
-      <field>
-        <name>laspez</name>
-        <type>String</type>
-        <length>-1</length>
-        <precision>-1</precision>
-        <trim_type>none</trim_type>
-        <repeat>N</repeat>
-        <format/>
-        <currency/>
-        <decimal/>
-        <group/>
-      </field>
-      <field>
-        <name>lahq</name>
-        <type>Number</type>
-        <length>-1</length>
-        <precision>-1</precision>
-        <trim_type>none</trim_type>
-        <repeat>N</repeat>
-        <format/>
-        <currency/>
-        <decimal/>
-        <group/>
-      </field>
-      <field>
-        <name>laiso</name>
-        <type>String</type>
-        <length>-1</length>
-        <precision>-1</precision>
-        <trim_type>none</trim_type>
-        <repeat>N</repeat>
-        <format/>
-        <currency/>
-        <decimal/>
-        <group/>
-      </field>
-      <field>
-        <name>operation_flag</name>
-        <type>String</type>
-        <length>-1</length>
-        <precision>-1</precision>
-        <trim_type>none</trim_type>
-        <repeat>N</repeat>
-        <format/>
-        <currency/>
-        <decimal/>
-        <group/>
-      </field>
-      <field>
-        <name>is_deleted</name>
-        <type>String</type>
-        <length>-1</length>
-        <precision>-1</precision>
-        <trim_type>none</trim_type>
-        <repeat>N</repeat>
-        <format/>
-        <currency/>
-        <decimal/>
-        <group/>
-      </field>
-      <field>
-        <name>recordstamp</name>
-        <type>String</type>
-        <length>-1</length>
-        <precision>-1</precision>
-        <trim_type>none</trim_type>
-        <repeat>N</repeat>
-        <format/>
-        <currency/>
-        <decimal/>
-        <group/>
-      </field>
-    </fields>
-    <sheets>
-    </sheets>
-    <strict_types>N</strict_types>
-    <error_ignored>N</error_ignored>
-    <error_line_skipped>N</error_line_skipped>
-    <bad_line_files_destination_directory/>
-    <bad_line_files_extension>warning</bad_line_files_extension>
-    <error_line_files_destination_directory/>
-    <error_line_files_extension>error</error_line_files_extension>
-    <line_number_files_destination_directory/>
-    <line_number_files_extension>line</line_number_files_extension>
-    <shortFileFieldName/>
-    <pathFieldName/>
-    <hiddenFieldName/>
-    <lastModificationTimeFieldName/>
-    <uriNameFieldName/>
-    <rootUriNameFieldName/>
-    <extensionFieldName/>
-    <sizeFieldName/>
-    <spreadsheet_type>JXL</spreadsheet_type>
-    <password>Encrypted </password>
-    <attributes/>
-    <cluster_schema/>
-    <remotesteps>
-      <input>
-      </input>
-      <output>
-      </output>
-    </remotesteps>
-    <GUI>
-      <xloc>704</xloc>
-      <yloc>368</yloc>
-      <draw>Y</draw>
-    </GUI>
-  </step>
-  <step>
-    <name>Select values 19</name>
-    <type>SelectValues</type>
-    <description/>
-    <distribute>Y</distribute>
-    <custom_distribution/>
-    <copies>1</copies>
-    <partitioning>
-      <method>none</method>
-      <schema_name/>
-    </partitioning>
-    <fields>
-      <field>
-        <name>spras</name>
-        <rename>sap_language_code</rename>
-      </field>
-      <field>
-        <name>laspez</name>
-        <rename>language_specialization</rename>
-      </field>
-      <field>
-        <name>lahq</name>
-        <rename>language_hierarchy_level</rename>
-      </field>
-      <field>
-        <name>laiso</name>
-        <rename>iso_language_code</rename>
-      </field>
-      <field>
-        <name>operation_flag</name>
-        <rename/>
-      </field>
-      <field>
-        <name>is_deleted</name>
-        <rename/>
-      </field>
-      <field>
-        <name>recordstamp</name>
-        <rename>record_timestamp</rename>
-      </field>
-      <select_unspecified>N</select_unspecified>
-    </fields>
-    <attributes/>
-    <cluster_schema/>
-    <remotesteps>
-      <input>
-      </input>
-      <output>
-      </output>
-    </remotesteps>
-    <GUI>
-      <xloc>864</xloc>
-      <yloc>368</yloc>
-      <draw>Y</draw>
-    </GUI>
-  </step>
-  <step>
-    <name>Select values 20</name>
-    <type>SelectValues</type>
-    <description/>
-    <distribute>Y</distribute>
-    <custom_distribution/>
-    <copies>1</copies>
-    <partitioning>
-      <method>none</method>
-      <schema_name/>
-    </partitioning>
-    <fields>
-      <select_unspecified>N</select_unspecified>
-      <meta>
-        <name>sap_language_code</name>
-        <rename>sap_language_code</rename>
-        <type>String</type>
-        <length>-2</length>
-        <precision>-2</precision>
-        <conversion_mask/>
-        <date_format_lenient>false</date_format_lenient>
-        <date_format_locale/>
-        <date_format_timezone/>
-        <lenient_string_to_number>false</lenient_string_to_number>
-        <encoding/>
-        <decimal_symbol/>
-        <grouping_symbol/>
-        <currency_symbol/>
-        <storage_type/>
-      </meta>
-      <meta>
-        <name>language_specialization</name>
-        <rename>language_specialization</rename>
-        <type>String</type>
-        <length>-2</length>
-        <precision>-2</precision>
-        <conversion_mask/>
-        <date_format_lenient>false</date_format_lenient>
-        <date_format_locale/>
-        <date_format_timezone/>
-        <lenient_string_to_number>false</lenient_string_to_number>
-        <encoding/>
-        <decimal_symbol/>
-        <grouping_symbol/>
-        <currency_symbol/>
-        <storage_type/>
-      </meta>
-      <meta>
-        <name>language_hierarchy_level</name>
-        <rename>language_hierarchy_level</rename>
-        <type>Integer</type>
-        <length>-2</length>
-        <precision>-2</precision>
-        <conversion_mask/>
-        <date_format_lenient>false</date_format_lenient>
-        <date_format_locale/>
-        <date_format_timezone/>
-        <lenient_string_to_number>false</lenient_string_to_number>
-        <encoding/>
-        <decimal_symbol/>
-        <grouping_symbol/>
-        <currency_symbol/>
-        <storage_type/>
-      </meta>
-      <meta>
-        <name>iso_language_code</name>
-        <rename>iso_language_code</rename>
-        <type>String</type>
-        <length>-2</length>
-        <precision>-2</precision>
-        <conversion_mask/>
-        <date_format_lenient>false</date_format_lenient>
-        <date_format_locale/>
-        <date_format_timezone/>
-        <lenient_string_to_number>false</lenient_string_to_number>
-        <encoding/>
-        <decimal_symbol/>
-        <grouping_symbol/>
-        <currency_symbol/>
-        <storage_type/>
-      </meta>
-      <meta>
-        <name>operation_flag</name>
-        <rename>operation_flag</rename>
-        <type>String</type>
-        <length>-2</length>
-        <precision>-2</precision>
-        <conversion_mask/>
-        <date_format_lenient>false</date_format_lenient>
-        <date_format_locale/>
-        <date_format_timezone/>
-        <lenient_string_to_number>false</lenient_string_to_number>
-        <encoding/>
-        <decimal_symbol/>
-        <grouping_symbol/>
-        <currency_symbol/>
-        <storage_type/>
-      </meta>
-      <meta>
-        <name>is_deleted</name>
-        <rename>is_deleted</rename>
-        <type>String</type>
-        <length>-2</length>
-        <precision>-2</precision>
-        <conversion_mask/>
-        <date_format_lenient>false</date_format_lenient>
-        <date_format_locale/>
-        <date_format_timezone/>
-        <lenient_string_to_number>false</lenient_string_to_number>
-        <encoding/>
-        <decimal_symbol/>
-        <grouping_symbol/>
-        <currency_symbol/>
-        <storage_type/>
-      </meta>
-      <meta>
-        <name>record_timestamp</name>
-        <rename>record_timestamp</rename>
-        <type>String</type>
-        <length>-2</length>
-        <precision>-2</precision>
-        <conversion_mask/>
-        <date_format_lenient>false</date_format_lenient>
-        <date_format_locale/>
-        <date_format_timezone/>
-        <lenient_string_to_number>false</lenient_string_to_number>
-        <encoding/>
-        <decimal_symbol/>
-        <grouping_symbol/>
-        <currency_symbol/>
-        <storage_type/>
-      </meta>
-    </fields>
-    <attributes/>
-    <cluster_schema/>
-    <remotesteps>
-      <input>
-      </input>
-      <output>
-      </output>
-    </remotesteps>
-    <GUI>
-      <xloc>1008</xloc>
-      <yloc>368</yloc>
-      <draw>Y</draw>
-    </GUI>
-  </step>
-  <step>
-    <name>Table output 8</name>
-    <type>TableOutput</type>
-    <description/>
-    <distribute>Y</distribute>
-    <custom_distribution/>
-    <copies>1</copies>
-    <partitioning>
-      <method>none</method>
-      <schema_name/>
-    </partitioning>
-    <connection>LTI_project</connection>
-    <schema>public</schema>
-    <table>stg_t002</table>
-    <commit>1000</commit>
-    <truncate>N</truncate>
-    <ignore_errors>N</ignore_errors>
-    <use_batch>Y</use_batch>
-    <specify_fields>N</specify_fields>
-    <partitioning_enabled>N</partitioning_enabled>
-    <partitioning_field/>
-    <partitioning_daily>N</partitioning_daily>
-    <partitioning_monthly>Y</partitioning_monthly>
-    <tablename_in_field>N</tablename_in_field>
-    <tablename_field/>
-    <tablename_in_table>Y</tablename_in_table>
-    <return_keys>N</return_keys>
-    <return_field/>
-    <fields>
-    </fields>
-    <attributes/>
-    <cluster_schema/>
-    <remotesteps>
-      <input>
-      </input>
-      <output>
-      </output>
-    </remotesteps>
-    <GUI>
-      <xloc>1152</xloc>
-      <yloc>368</yloc>
       <draw>Y</draw>
     </GUI>
   </step>
